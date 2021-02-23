@@ -17,13 +17,13 @@ font-face
 }
 body
 {
-    width: 100%;
-	max-width: 1800px;
+   
 }
 .block_page
 {
 	font-family: ralewaythin, sans-serif;
 	width: 100%;
+	max-width: 600px;
 	
 }
 
@@ -44,6 +44,7 @@ body
 	margin-left: 2.5em;
 	justify-content: space-between;
 	align-items: center;
+
 }
 
 .logo_nav ul
@@ -52,13 +53,16 @@ body
     text-align: right;
     
 
+    
+
 
 }
 .logo_nav li
 {
 	margin-right: 36px;
-    display: inline;
+    display: column;
     margin-top: 50px;
+
 }
 
 .logo_nav a
@@ -83,6 +87,12 @@ h1
 margin-top: 1em;
 margin-left: 2.5em;
 }
+
+.avant_recherche h1
+{
+	font-size: 1.7em;
+	justify-content:
+}
 /*recherche */
 .recherche img
 {
@@ -94,13 +104,17 @@ margin-left: 2.5em;
 	border-top-left-radius: 6px ;
 	border-bottom-left-radius: 5.5px ;
 	background-color: #F2F2F2;
-	padding: 7px 5px 7px 5px;
+	padding: 7px 7px 7px 7px;
 }
 
-#ville
+.ville
 {
-	padding-left: 25px;
+	padding: 6px 0px 5px 25px;
+	border-color: #F2F2F2;
+	border-style: solid;
 	font-weight: bold;
+	font-size: 1.3em;
+
 }
 .recherche
 {
@@ -116,7 +130,6 @@ margin-left: 2.5em;
  width: 12em;
  font-size: 1em;
  border: 1px #F2F2F2 solid;
- padding-left: 25px;
 }  
 .rechercher
 {
@@ -127,11 +140,23 @@ margin-left: 2.5em;
 	border-bottom-right-radius: 6px ;
 	color: white;
 	font-size: 1em;
-}
+	display: none;
 
+}
 .rechercher_ico
 {
-	display: none
+    height: 2.5em;
+    background-color: #0065FC;
+    border: 1px #0065FC solid;
+    border-radius: 10px;
+	color: white;
+	font-size: 1em;
+	display: flex;
+	align-items: center;
+	padding-left: 10px;
+	padding-right: 10px;
+	position:relative;
+	left: -5px;
 }
 
 #rechercher:hover
@@ -141,21 +166,19 @@ margin-left: 2.5em;
 /*filtres */
 .filtres
 {
-	font-size: 1.5em;
+	font-size: 1.3em;
 	display: flex;
-	align-items: center;
 	justify-content: flex-start;
 	margin-top: 1.2em;
-	margin-left: 1.8em;
+	
 	width: 100%;
+	flex-flow: row wrap;
+	
 
 }
 
 
-.filtres h1
-{
-	font-size: 1em;
-}
+
 
 .filtres h2
 {
@@ -167,16 +190,13 @@ margin-left: 2.5em;
 .barre_filtres
 {
 	display: flex;
-    align-items: center;
+    flex-flow: row wrap;
+    
+
 
 }
 
-.eco h1
-{
-	font-size: 1em;
-	margin-left: 1em;
-	margin-right: 1.2em;
-}
+
 .eco
 {
 
@@ -185,7 +205,8 @@ margin-left: 2.5em;
     font-weight: bold;
     border: 2px #F2F2F2 solid;
   	border-radius: 50px 50px 50px 50px;
-  	margin-left: 1em;
+  	margin-bottom: 20px;
+  	
 }
 .fa-money-bill-wave 
 {
@@ -231,15 +252,11 @@ margin-left: 2.5em;
     font-weight: bold;
     border: 2px #F2F2F2 solid;
   	border-radius: 50px 50px 50px 50px;
-  	margin-left: 1em;	
+  	margin-left: 1em;
+  	margin-bottom: 20px;	
 }
 
-.fam h1
-{
-	font-size: 1em;
-	margin-left: 1em;
-	margin-right: 1.2em;
-}
+
 
 .fa-heart
 {
@@ -265,15 +282,10 @@ margin-left: 2.5em;
     font-weight: bold;
     border: 2px #F2F2F2 solid;
   	border-radius: 50px 50px 50px 50px;
-  	margin-left: 1em;	
+  	margin-bottom: 20px;	
 }
 
-.rom h1
-{
-	font-size: 1em;
-	margin-left: 1em;
-	margin-right: 1.2em;
-}
+
 
 .fa-dog
 {
@@ -298,14 +310,10 @@ margin-left: 2.5em;
     font-weight: bold;
     border: 2px #F2F2F2 solid;
   	border-radius: 50px 50px 50px 50px;
-  	margin-left: 1em;	
+  		
 }
 
-.ani h1
-{
-	font-size: 1em;
-	margin-left: 1em;
-	margin-right: 1.2em;
+
 }
 /*info*/
 .nombres_logements
@@ -341,12 +349,13 @@ color: #0065FC;
     align-items: center;
     margin-left: 2.5em;
     margin-top: 25px;
+    max-width: 600px;
+    flex-flow: row wrap-reverse;
 }
 .block_heberg
 {
   width:100%;
-
-
+  max-width: 600px;
 }
 
 h3
@@ -363,22 +372,17 @@ h3
 {
 	
 	margin-left: 2em;
-	padding-right: 700px;
+	padding-right: 2px;
 	
 }
 
 
 .hebergements
 {
-    background-color: #F2F2F2;
-	border: 2px #F2F2F2 solid;
-	border-top-right-radius: 30px;
-	border-top-left-radius: 30px;
-	border-bottom-right-radius: 30px;
-	border-bottom-left-radius: 30px;
-	
+    background-color: white;
+	border: 2px white solid;
 	padding-top: 10px;
-	height: 800px;
+	height: auto;
 	width: 90%;
 	display: flex ;
 	flex-flow: row wrap;	
@@ -399,7 +403,7 @@ h3
 
 .cannebiere
 {
-  width: 30%;
+  width: 90%;
   border: 2px solid white;
   float: left;
   font-size: 1.2em;
@@ -410,15 +414,17 @@ h3
   border-bottom-left-radius: 30px;
   margin-left: 25px;
   margin-bottom: 25px;
+  box-shadow: 3px 3px 3px 3px #F2F2F2;
 }
  
 .cannebiere img
 {
-	width: 100%;
+	width: 99%;
 	height: 160px;
 	border: 2px solid white;
 	border-top-right-radius: 30px;
     border-top-left-radius: 30px;
+    object-fit: cover;
 }
  .cannebiere:hover
  {
@@ -427,7 +433,7 @@ h3
 
 .hotel_du_port
 {
-  width: 30%;
+  width: 90%;
   border: 2px solid white;
   float: left;
   font-size: 1.2em;
@@ -438,15 +444,17 @@ h3
   border-bottom-left-radius: 30px;
   margin-left: 25px;
   margin-bottom: 25px;
+  box-shadow: 3px 3px 3px 3px #F2F2F2;
 }
 
 .hotel_du_port img
 {
-	width: 100%;
+	width: 99%;
 	height: 160px;
 	border: 2px solid white;
 	border-top-right-radius: 30px;
     border-top-left-radius: 30px;
+    object-fit: cover;
 }
 
 .hotel_du_port:hover
@@ -455,7 +463,7 @@ h3
 }
 .hotel_des_mouettes
 {
-  width: 30%;	
+  width: 90%;	
   border: 2px solid white;
   float: left;
   font-size: 1.2em;
@@ -466,16 +474,18 @@ h3
   border-bottom-left-radius: 30px;
   margin-left: 25px;
   margin-bottom: 25px;
+  box-shadow: 3px 3px 3px 3px #F2F2F2;
   
 }
 
 .hotel_des_mouettes img
 {
-	width: 100%;
+	width: 99%;
 	height: 160px;
 	border: 2px solid white;
 	border-top-right-radius: 30px;
     border-top-left-radius: 30px;
+    object-fit: cover;
 }
 .hotel_des_mouettes:hover
 {
@@ -484,7 +494,7 @@ h3
 
 .hotel_de_la_mer
 {
-  width: 30%;
+  width: 90%;
   border: 2px solid white;
   float: left;
   font-size: 1.2em;
@@ -495,16 +505,17 @@ h3
   border-bottom-left-radius:30px;
   margin-left: 25px;
   margin-bottom: 25px;
-  
+  box-shadow: 3px 3px 3px 3px #F2F2F2;
 }
 
 .hotel_de_la_mer img
 {
-	width: 100%;
+	width: 99%;
 	height: 160px;
 	border: 2px solid white;
 	border-top-right-radius: 30px;
     border-top-left-radius: 30px;
+    object-fit: cover;
 }
 .hotel_de_la_mer:hover
 {
@@ -512,7 +523,7 @@ h3
 }
 .auberge_le_panier
 {
-  width: 30%;
+  width: 90%;
   border: 2px solid white;
   float: left;
   font-size: 1.2em;
@@ -523,16 +534,17 @@ h3
   border-bottom-left-radius: 30px;
   margin-left: 25px;
   margin-bottom: 25px;
-  
+  box-shadow: 3px 3px 3px 3px #F2F2F2;
 }
 
 .auberge_le_panier img
 {
-	width: 100%;
+	width: 99%;
 	height: 160px;
 	border: 2px solid white;
 	border-top-right-radius: 30px;
     border-top-left-radius: 30px;
+    object-fit: cover;
 }
 .auberge_le_panier:hover
 {
@@ -540,7 +552,7 @@ h3
 }
 .chez_amina
 {
-  width: 30%;
+  width: 90%;
   border: 2px solid white;
   float: left;
   font-size: 1.2em;
@@ -551,16 +563,17 @@ h3
   border-bottom-left-radius: 30px;
   margin-left: 25px;
   margin-bottom: 25px;
-  
+  box-shadow: 3px 3px 3px 3px #F2F2F2;
 }
 
 .chez_amina img
 {
-	width: 100%;
+	width: 99%;
 	height: 160px;
 	border: 2px solid white;
 	border-top-right-radius: 30px;
     border-top-left-radius: 30px;
+    object-fit: cover;
 }
 .chez_amina:hover
 {
@@ -574,12 +587,13 @@ h3
 }
 .plus button:hover
 {
-	color: white;
+	color: blue;
 }
 .plus button
 {
 	font-size: 1.5em;
 	font-weight: bold;
+	background-color: white;
 }
 
 
@@ -587,14 +601,13 @@ h3
 {
 	background-color: #F2F2F2;
 	border: 2px #F2F2F2 solid;
-	border-top-right-radius: 30px;
-	border-top-left-radius: 30px;
+	
 	border-bottom-right-radius: 30px;
 	border-bottom-left-radius: 30px;
 	margin-right: 50px;
 	padding-top: 10px;
-	height: 800px;
-	width: 45%;
+	height: auto;
+	width: 100%;
 	display: flex;
 	flex-flow: row wrap;
 }
@@ -608,28 +621,35 @@ h3
 
 }
 
-.desc_pop
-{
-	
-	width: 100%;
-	margin-left: 30px;
-	padding-right: 30px;
-    
-}
+
 
 .desc_pop h3
 {
 
 }
 
+.desc_pop
+{
+	
+	width: 60%;
+	margin-left: 30px;
+	padding-right: 35px;
+}
+
 .desc_pop_sol
 {
 	
-	width: 100%;
+	width: 60%;
 	margin-left: 30px;
-	padding-right: 20px;
+	padding-right: 35px;
 }
-
+.desc_pop_tbeb
+{
+	
+	width: 60%;
+	margin-left: 30px;
+	padding-right: 38px;
+}
 
 .fa-chart-line
 {
@@ -658,11 +678,12 @@ h3
 
 .soleil_du_matin img
 {
-	width: 220px;
+	width: 180px;
 	height: 180px;
 	border: 2px solid white;
 	border-bottom-left-radius: 30px;
     border-top-left-radius: 30px;
+    object-fit: cover;
 }
 .soleil_du_matin:hover
 {
@@ -688,11 +709,12 @@ h3
 
 .coeur_de_l_eau img
 {
-	width: 220px;
+	width: 180px;
 	height: 180px;
 	border: 2px solid white;
 	border-bottom-left-radius: 30px;
     border-top-left-radius: 30px;
+    object-fit: cover;
 }
 .coeur_de_l_eau:hover
 {
@@ -718,11 +740,12 @@ h3
 
 .bleu_et_blanc img
 {
-	width: 220px;
+	width: 180px;
 	height: 180px;
 	border: 2px solid white;
 	border-bottom-left-radius: 30px;
     border-top-left-radius: 30px;
+    object-fit: cover;
 }
 .bleu_et_blanc:hover
 {
@@ -734,6 +757,10 @@ h3
 	margin-top: 80px;
 	
 }
+.titre_act
+{
+	margin-left: 25px;
+}
 .Activités h3
 {
 	margin-left: 20px;
@@ -741,24 +768,27 @@ h3
 .block_activites
 {
 	display: flex;
-	justify-content: space-between;
+	flex-flow: row wrap;
 	
 }
 .act_1
 {
 	border: 1px solid #F2F2F2;
-	width: 20%;
+	width: 82%;
 	border-radius: 30px;
 	box-shadow: 3px 3px 3px 3px #F2F2F2;
+	margin-left: 25px;
+	margin-bottom: 25px;
 }
 
 .act_1 img
 {
 	width: 100%;
-	height: 500px;
+	height: 160px;
 	border: 1px solid #F2F2F2;
 	border-radius: 30px 30px 0px 0px;
 	object-fit: cover;
+
 }
 .act_1:hover
 {
@@ -766,24 +796,24 @@ h3
 }
 .act_2
 {
-  width: 20%;
+  width: 100%;
   
 }
 
 .fort
 {
-	width: 100%;
-    
+	border: 1px solid #F2F2F2;
+	width: 82%;
 	border-radius: 30px;
 	box-shadow: 3px 3px 3px 3px #F2F2F2;
-	border: 1px solid #F2F2F2;
-	margin-bottom: 50px;
+	margin-left: 25px;
+	margin-bottom: 25px;
 }
 
 .fort img
 {
 	width: 100%;
-	height: 250px;
+	height: 160px;
 	object-fit: cover;
     border: 1px solid #F2F2F2;
 	border-radius: 30px 30px 0px 0px;
@@ -794,16 +824,18 @@ h3
 }
 .iles
 {
-	width: 100%;
-    border-radius: 30px;
-	box-shadow: 3px 3px 3px 3px #F2F2F2;
 	border: 1px solid #F2F2F2;
+	width: 82%;
+	border-radius: 30px;
+	box-shadow: 3px 3px 3px 3px #F2F2F2;
+	margin-left: 25px;
+	margin-bottom: 25px;
 }
 
 .iles img
 {
 	width: 100%;
-	height: 150px;
+	height: 160px;
 	object-fit: cover;
     border: 1px solid #F2F2F2;
 	border-radius: 30px 30px 0px 0px;
@@ -815,15 +847,17 @@ h3
 .act_3
 {
 	border: 1px solid #F2F2F2;
-	width: 20%;
+	width: 82%;
 	border-radius: 30px;
 	box-shadow: 3px 3px 3px 3px #F2F2F2;
+	margin-left: 25px;
+	margin-bottom: 25px;
 }
 
 .act_3 img
 {
 	width: 100%;
-	height: 500px;
+	height: 160px;
 	border: 1px solid #F2F2F2;
 	border-radius: 30px 30px 0px 0px;
 	object-fit: cover;
@@ -834,24 +868,26 @@ h3
 }
 .act_4
 {
-	width: 20%;
-	margin-right: 35px;
+	width: 100%;
+	margin-bottom: 25px;
+	margin-left: 25px;
+	
 
 }
 
 .notre_dame
 {
-	width: 100%;
+	width: 94%;
     border-radius: 30px;
 	box-shadow: 3px 3px 3px 3px #F2F2F2;
 	border: 1px solid #F2F2F2;
-	margin-bottom: 60px;
+	margin-bottom: 25px;
 }
 
 .notre_dame img
 {
 	width: 100%;
-	height: 185px;
+	height: 160px;
 	object-fit: cover;
     border: 1px solid #F2F2F2;
 	border-radius: 30px 30px 0px 0px;
@@ -862,7 +898,7 @@ h3
 }
 .parc_long
 {
-	width: 100%;
+	width: 96%;
     border-radius: 30px;
 	box-shadow: 3px 3px 3px 3px #F2F2F2;
 	border: 1px solid #F2F2F2;	
@@ -871,7 +907,7 @@ h3
 .parc_long img
 {
 	width: 100%;
-	height: 200px;
+	height: 160px;
 	object-fit: cover;
     border: 1px solid #F2F2F2;
 	border-radius: 30px 30px 0px 0px;
@@ -880,11 +916,12 @@ h3
 .bas_de_page
 {
 	background-color: #F2F2F2;
-	height: 180px;
+	height: auto;
 	display: flex;
 	justify-content: space-between; 
 	margin-left: 1em;
 	margin-top: 60px;
+	flex-flow: row wrap;
 
 
 }
@@ -895,12 +932,14 @@ h3
 .bas_de_page ul
 {
 	list-style-type: none;
+	padding-right: 60px;
 }
 
 .bas_de_page a
 {
 	text-decoration: none;
 	color: black;
+
 
 
 }
@@ -912,6 +951,7 @@ h3
 .bas_de_page li
 {
 	line-height: 30px ;
+	display: column;
 
 }
 
@@ -920,7 +960,4 @@ h3
 	margin-left: 40px;
 }
 
-.Assistance
-{
-	margin-right: 400px;
-}
+

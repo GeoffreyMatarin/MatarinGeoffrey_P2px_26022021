@@ -4,6 +4,8 @@
     <head>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="style.css" /> 
+        <link rel="stylesheet" type="text/css" media="screen and (max-width: 600px)" href="style_mobile.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">    
         <script src="https://kit.fontawesome.com/e30966b87e.js" crossorigin="anonymous"></script>            
         <title>Reservia</title>
     </head>
@@ -13,10 +15,10 @@
     	<!-- Header -->
     		<header>
     			<div class="logo_nav">
-    				<img src="images/logo/Reservia.svg" alt=""  height="40">
+    				<img src="images/logo/Reservia.svg" alt=""  height=>
     				<nav>
     					<ul>
-    						<li><a href="#">Hébergements</a></li><li><a href="#">Activités</a></li><li><a href="#">S'inscrire</a></li>
+    						<li><a href="#hebergements">Hébergements</a></li><li><a href="#acti">Activités</a></li><li><a href="#">S'inscrire</a></li>
     					</ul>
     				</nav>				
     		   	</div>
@@ -31,9 +33,10 @@
     				<div class="recherche">
     					<img src="images/icones/localisation.svg" alt="" width="12" height="12" >
     					<form method="post" action="traitement.php">
-                        	<input type="search" name="ville" value="Marseille,France" id="ville">
+                        	<input type="search" name="ville" value="Marseille,France" class="ville">
                     	</form>
-                    	<button type="submit" value="Rechercher" name="rechercher" id="rechercher">rechercher</button>
+                    	<button type="submit" value="Rechercher" name="rechercher" class="rechercher">rechercher</button>
+                        <button type="submit" value="Rechercher" name="rechercher_ico" class="rechercher_ico"><i class="fas fa-search"></i></button>
     				</div>
     				<!--Filtres -->
     				<div class="filtres">
@@ -41,19 +44,19 @@
     					<div class="barre_filtres">
     						<div class="eco">
     						    <i class="fas fa-money-bill-wave"></i>
-    						    <h1>Economique</h1>
+    						    <h2>Economique</h2>
     						</div>
     						<div class="fam">
     						    <i class="fas fa-child"></i>
-    						    <h1>Familial</h1>
+    						    <h2>Familial</h2>
     						</div>	
     						<div class="rom">
     						    <i class="fas fa-heart"></i>
-    						    <h1>Romantique</h1>
+    						    <h2>Romantique</h2>
     						</div>	
                             <div class="ani">
     						    <i class="fas fa-dog"></i>
-    						    <h1>Animaux autorisés</h1>
+    						    <h2>Animaux autorisés</h2>
     						</div>	
     							  					    
     					</div>
@@ -141,7 +144,7 @@
     							</div>
     				    	</div>
                             <div class="plus">
-                            <h3>Afficher plus</h3>
+                            <button style="border:0px" type="button" value="activer" name="afficher plus" id="afficher">Afficher plus</button>
                             </div>
     			    	</div>
     			    </div>	
@@ -172,7 +175,7 @@
     				    	</div>
                         	<div class="bleu_et_blanc">
     							<a href="images/hebergements/large/tout_bleu-et-blanc-large.jpg"><img src="images/hebergements/small/tout_bleu_et_blanc.jpg" alt=""></a>
-                    			<div class="desc_pop">
+                    			<div class="desc_pop_tbeb">
                         			<h3>Hôtel Tout bleu et<br>blanc</h3> 
                             		<p>nuit a partir de <strong>68€</strong></p> 
                           				<div class="note">
@@ -188,7 +191,7 @@
     				<div class="titre_act">
     					<h1>Activités à Marseilles</h1>
     				</div>
-                    <div class="block_activites">
+                    <div class="block_activites" id="acti">
     					<div class="act_1">
     						<div class="vieux_port">
     							<a href="images/activites/large/vieux_port_large.jpg"><img src="images/activites/small/vieux_port.jpg" alt=""  ></a>
