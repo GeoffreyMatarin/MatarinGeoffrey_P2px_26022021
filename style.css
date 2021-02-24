@@ -54,6 +54,14 @@ body
 
 
 }
+
+.heb
+{
+	border-top:  2px solid #0065FC;
+	padding-top: 30px;
+	padding-left: 20px;
+	padding-right: 10px;
+}
 .logo_nav li
 {
 	margin-right: 36px;
@@ -97,11 +105,7 @@ margin-left: 2.5em;
 	padding: 7px 5px 7px 5px;
 }
 
-#ville
-{
-	padding-left: 25px;
-	font-weight: bold;
-}
+
 .recherche
 {
 	display: flex;
@@ -117,6 +121,7 @@ margin-left: 2.5em;
  font-size: 1em;
  border: 1px #F2F2F2 solid;
  padding-left: 25px;
+ font-weight: bold;
 }  
 .rechercher
 {
@@ -159,7 +164,7 @@ margin-left: 2.5em;
 
 .filtres h2
 {
-	font-size: 1em;
+	font-size: 0.8em;
 	margin-left: 20px;
 	margin-right: 30px;
 }
@@ -347,6 +352,7 @@ color: #0065FC;
   width:100%;
 
 
+
 }
 
 h3
@@ -379,7 +385,7 @@ h3
 	
 	padding-top: 10px;
 	height: 800px;
-	width: 90%;
+	width: 95%;
 	display: flex ;
 	flex-flow: row wrap;	
 }
@@ -408,13 +414,13 @@ h3
   border-top-left-radius: 30px;
   border-bottom-right-radius:30px;
   border-bottom-left-radius: 30px;
-  margin-left: 25px;
+  margin-left: 20px;
   margin-bottom: 25px;
 }
  
 .cannebiere img
 {
-	width: 100%;
+	width: 98.5%;
 	height: 160px;
 	border: 2px solid white;
 	border-top-right-radius: 30px;
@@ -442,7 +448,7 @@ h3
 
 .hotel_du_port img
 {
-	width: 100%;
+	width: 99%;
 	height: 160px;
 	border: 2px solid white;
 	border-top-right-radius: 30px;
@@ -465,13 +471,14 @@ h3
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 30px;
   margin-left: 25px;
+
   margin-bottom: 25px;
   
 }
 
 .hotel_des_mouettes img
 {
-	width: 100%;
+	width: 99%;
 	height: 160px;
 	border: 2px solid white;
 	border-top-right-radius: 30px;
@@ -493,14 +500,14 @@ h3
   border-top-left-radius: 30px;
   border-bottom-right-radius: 30px;
   border-bottom-left-radius:30px;
-  margin-left: 25px;
+  margin-left: 20px;
   margin-bottom: 25px;
   
 }
 
 .hotel_de_la_mer img
 {
-	width: 100%;
+	width: 99%;
 	height: 160px;
 	border: 2px solid white;
 	border-top-right-radius: 30px;
@@ -528,7 +535,7 @@ h3
 
 .auberge_le_panier img
 {
-	width: 100%;
+	width: 99%;
 	height: 160px;
 	border: 2px solid white;
 	border-top-right-radius: 30px;
@@ -556,7 +563,7 @@ h3
 
 .chez_amina img
 {
-	width: 100%;
+	width: 99%;
 	height: 160px;
 	border: 2px solid white;
 	border-top-right-radius: 30px;
@@ -611,12 +618,17 @@ h3
 .desc_pop
 {
 	
-	width: 100%;
+	width: 170px;
 	margin-left: 30px;
 	padding-right: 30px;
     
 }
-
+.desc_pop_tbeb
+{
+	width: 170px;
+	margin-left: 30px;
+	padding-right: 30px;
+}
 .desc_pop h3
 {
 
@@ -625,7 +637,7 @@ h3
 .desc_pop_sol
 {
 	
-	width: 100%;
+	width: 180px;
 	margin-left: 30px;
 	padding-right: 20px;
 }
