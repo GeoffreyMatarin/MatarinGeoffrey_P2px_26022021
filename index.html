@@ -3,8 +3,9 @@
 
     <head>
         <meta charset="utf-8" />
-        <link rel="stylesheet" href="style.css" /> 
-        <link rel="stylesheet" type="text/css" media="screen and (max-width: 599px)" href="style_mobile.css">
+        <link rel="stylesheet" href="style.css" > 
+        <link rel="stylesheet" type="text/css" media="all and (min-width:300px) and (max-width:800px)" href="style_mobile.css">
+        <link rel="stylesheet" type="text/css" media="all and (min-width:801px) and (max-width:1199px)" href="style_tablette.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">    
         <script src="https://kit.fontawesome.com/e30966b87e.js" crossorigin="anonymous"></script>            
         <title>Reservia</title>
@@ -12,7 +13,7 @@
 
     <body>
     	<div class="block_page">
-    	<!-- Header -->
+    	   <!-- Header -->
     		<header>
     			<div class="logo_nav">
     				<img src="images/logo/Reservia.svg" alt=""  height=>
@@ -31,7 +32,7 @@
     				</div>
     				<!--Recherches-->
     				<div class="recherche">
-    					<img src="images/icones/localisation.svg" alt="" width="12" height="12" >
+    					<img src="images/icones/localisation.svg" alt="" >
     					<form method="post" action="traitement.php">
                         	<input type="search" name="ville" value="Marseille,France" class="ville">
                     	</form>
@@ -73,7 +74,7 @@
     		</section>
     		<section>
     			<div class="HaM">
-                    <div class="block_heberg">
+                    
     					
     					<div class="hebergements">
                             <div class="titre_hebergements">
@@ -147,7 +148,7 @@
                             <button style="border:0px" type="button" value="activer" name="afficher plus" id="afficher">Afficher plus</button>
                             </div>
     			    	</div>
-    			    </div>	
+    			   
     			    	<div class="populaires">
     			    		<div class="titre_pop">
     			    			<h1>Les plus populaires</h1>

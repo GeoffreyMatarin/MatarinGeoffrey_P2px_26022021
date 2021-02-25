@@ -1,5 +1,4 @@
-
-@media screen and (min-width:1200px)
+@media all and (min-width:801px) and (max-width:1199px)
 
 font-face 
 {
@@ -17,13 +16,14 @@ font-face
 body
 {
     width: 100%;
-	max-width: 1920px;
+	max-width: 1199px;
 
 }
 .block_page
 {
 	font-family: ralewaythin, sans-serif;
 	width: 100%;
+	background-color: green;
 	
 	
 }
@@ -148,11 +148,11 @@ margin-left: 2.5em;
 {
 	font-size: 1.5em;
 	display: flex;
-	align-items: center;
 	justify-content: flex-start;
 	margin-top: 1.2em;
 	margin-left: 1.8em;
 	width: 100%;
+	flex-flow: row wrap;
 
 }
 
@@ -173,7 +173,7 @@ margin-left: 2.5em;
 {
 	width: 100%;
 	display: flex;
-    align-items: center;
+    align-items: flex-start;
 
 }
 
@@ -349,6 +349,7 @@ color: #0065FC;
     justify-content: space-between;
     margin-left: 2.5em;
     margin-top: 25px;
+    flex-flow: row wrap;
 }
 
 
@@ -379,10 +380,10 @@ h3
 	border-top-left-radius: 30px;
 	border-bottom-right-radius: 30px;
 	border-bottom-left-radius: 30px;
-	
+	margin-bottom: 50px;
 	padding-top: 10px;
 	height: 800px;
-	width: 60%;
+	width: 95%;
 	display: flex ;
 	flex-flow: row wrap;	
 }
@@ -493,7 +494,7 @@ h3
 {
   width: 30%;
   border: 2px solid white;
-  float: left;
+
   font-size: 1.2em;
   background-color: white;
   border-top-right-radius: 30px;
@@ -601,7 +602,7 @@ h3
 	border-bottom-left-radius: 30px;
 	padding-top: 10px;
 	height: 800px;
-	width: 35%;
+	width: 95%;
 	display: flex;
 	flex-flow: row wrap;
 	margin-right: 2%;
@@ -653,10 +654,10 @@ h3
 .soleil_du_matin
 {
   border: 2px solid white;
-  display: flex;
-  height: 23%;
-  width: 88%;
-  align-items: center;
+  
+  height: 32%;
+  width: 95%;
+  
   font-size: 1.2em;
   background-color: white;
   border-top-right-radius: 30px;
@@ -672,8 +673,8 @@ h3
 
 .soleil_du_matin img
 {
-	width: 220px;
-	height: 180px;
+	width: 90%;
+	height:120%;
 	border: 2px solid white;
 	border-bottom-left-radius: 30px;
     border-top-left-radius: 30px;
@@ -686,9 +687,9 @@ h3
 {
   border: 2px solid white;
   display: flex;
-  height: 180px;
-  width: 88%;
-  height: 23%;
+  height: 32%;
+  width: 95%;
+  
   align-items: center;
   font-size: 1.2em;
   background-color: white;
@@ -704,8 +705,8 @@ h3
 
 .coeur_de_l_eau img
 {
-	width: 220px;
-	height: 180px;
+	width: 94%;
+	height: 30%;
 	border: 2px solid white;
 	border-bottom-left-radius: 30px;
     border-top-left-radius: 30px;
