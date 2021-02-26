@@ -1,4 +1,4 @@
- @media all and (min-width:300px) and (max-width:800px)
+ @media all and (min-width:300px) and (max-width:574px)
 
 
 	font-face 
@@ -17,7 +17,7 @@
 	body
 	{
 	    width: 100%;
-		max-width: 800px; 
+		max-width: 574px; 
 	}
 	.block_page
 	{
@@ -439,7 +439,10 @@
 		color: #F2F2F2;
 	}
 
-
+    .note
+    {
+    	width: 100%;
+    }
 
 	.cannebiere
 	{
@@ -664,7 +667,10 @@
 		margin-left: 30px;
 		padding-right: 35px;
 	}
-
+    .note_pop
+	{
+		width: 100%;
+	}
 	.desc_pop_sol
 	{
 		font-size: 0.6em;
@@ -676,8 +682,8 @@
 	{
 		font-size: 0.6em;
 		width: 60%;
-		margin-left: 30px;
-		padding-right: 35px;
+		margin-left: 0px;
+		padding-right: 60px;
 	}
 
 	.fa-chart-line
@@ -759,7 +765,7 @@
 	  margin-left: 10px;
 	  margin-bottom: 25px;
 	  padding-top: 5px;
-	  padding-left: 1px;
+	  padding-left: 0px;
 	}
 
 	.bleu_et_blanc img
