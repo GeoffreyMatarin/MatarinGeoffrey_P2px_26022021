@@ -1,4 +1,4 @@
-@media all and (min-width:801px) and (max-width:1199px)
+@media all and (min-width:575px) and (max-width:1199px)
 
 font-face 
 {
@@ -15,8 +15,9 @@ font-face
 }
 body
 {
-    width: 100%;
+    width: 99%;
 	max-width: 1199px;
+	min-width: 575px;
 
 }
 .block_page
@@ -38,7 +39,7 @@ body
 
 .logo_nav
 {
-	max-width: 1800px
+	
 	width: 100%;
    	display: flex;
 	margin-top: 1em;
@@ -154,6 +155,7 @@ margin-left: 2.5em;
 	width: 100%;
 	flex-flow: row wrap;
 
+
 }
 
 
@@ -174,6 +176,8 @@ margin-left: 2.5em;
 	width: 100%;
 	display: flex;
     align-items: flex-start;
+    flex-flow: row wrap;
+
 
 }
 
@@ -185,13 +189,14 @@ margin-left: 2.5em;
 }
 .eco
 {
-
+    width: 250px;
     display: flex;
     align-items:  center;
     font-weight: bold;
     border: 2px #F2F2F2 solid;
   	border-radius: 50px 50px 50px 50px;
   	margin-left: 1em;
+  	margin-bottom: 15px;
 }
 .fa-money-bill-wave 
 {
@@ -266,12 +271,14 @@ margin-left: 2.5em;
 }
 .rom
 {
+	width:250px;
     display: flex;
     align-items:  center;
     font-weight: bold;
     border: 2px #F2F2F2 solid;
   	border-radius: 50px 50px 50px 50px;
   	margin-left: 1em;	
+  	margin-bottom: 15px;
 }
 
 .rom h1
@@ -305,6 +312,7 @@ margin-left: 2.5em;
     border: 2px #F2F2F2 solid;
   	border-radius: 50px 50px 50px 50px;
   	margin-left: 1em;	
+
 }
 
 .ani h1
@@ -344,6 +352,7 @@ color: #0065FC;
 .HaM
 {
 	width: 97%;
+	height:auto;
 	display: flex;
     align-items: center;
     justify-content: space-between;
@@ -382,7 +391,7 @@ h3
 	border-bottom-left-radius: 30px;
 	margin-bottom: 50px;
 	padding-top: 10px;
-	height: 800px;
+	height: auto;
 	width: 95%;
 	display: flex ;
 	flex-flow: row wrap;	
@@ -578,7 +587,7 @@ h3
 .plus
 {
 	margin-left: 2em;
-	padding-right: 2em;
+	padding-right: 200px;
 	
 }
 .plus button:hover
@@ -616,7 +625,10 @@ h3
     margin-left: 2em;
 
 }
-
+.note_pop
+{
+	width: 100%;
+}
 .desc_pop
 {
 	
@@ -914,7 +926,7 @@ h3
 }
 .bas_de_page
 {
-	width: 100%;
+	width: 98.5%;
 }
 .bas_de_page ul
 {
