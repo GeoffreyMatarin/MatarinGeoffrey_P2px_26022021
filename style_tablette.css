@@ -1,4 +1,4 @@
-@media all and (min-width:575px) and (max-width:1199px)
+@media all and (min-width:811px) and (max-width:1199px)
 
 font-face 
 {
@@ -614,7 +614,7 @@ h3
 	width: 95%;
 	display: flex;
 	flex-flow: row wrap;
-	margin-right: 2%;
+	
 }
 
 .titre_pop
@@ -624,6 +624,10 @@ h3
     align-items: center;
     margin-left: 2em;
 
+}
+.titre_pop h1
+{
+  background-color: red;
 }
 .note_pop
 {

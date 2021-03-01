@@ -10,21 +10,21 @@ font-face
     font-style: normal;
 }
 
-.filtres h1
-{
-	font-size: 1em;
-}
+
 body
 {
     width: 100%;
-	max-width: 1920px;
+	
 	min-width: 1200px;
+	max-width: 1870px;
 
 }
 .block_page
 {
 	font-family: ralewaythin, sans-serif;
-	width: 100%;
+	width: 98%;
+	max-width: 1870px;
+	
 	
 	
 }
@@ -39,13 +39,14 @@ body
 
 .logo_nav
 {
-	max-width: 1800px
+	max-width: 1850px;
 	width: 100%;
    	display: flex;
 	margin-top: 1em;
 	margin-left: 2.5em;
 	justify-content: space-between;
 	align-items: center;
+	
 }
 
 .logo_nav ul
@@ -57,13 +58,7 @@ body
 
 }
 
-.heb
-{
-	border-top:  2px solid #0065FC;
-	padding-top: 30px;
-	padding-left: 20px;
-	padding-right: 10px;
-}
+
 .logo_nav li
 {
 	display: inline;
@@ -91,14 +86,16 @@ h1
 {
 margin-top: 1em;
 margin-left: 2.5em;
+width: 100%;
+max-width: 1800px;
+ 
 }
 /*recherche */
-.recherche img
+.fa-map-marker-alt
 {
 	display: flex;
     justify-content: flex-start;
-	width: 2em;
-	height: 1.5em;
+	font-size: 1.5em;
 	border: 1px #F2F2F2 solid;
 	border-top-left-radius: 6px ;
 	border-bottom-left-radius: 5.5px ;
@@ -113,6 +110,8 @@ margin-left: 2.5em;
 	align-items: center;
 	justify-content: flex-start;
 	margin-left: 2.5em;
+	width: 100%;
+	max-width: 1500px;
 }
 
 .ville
@@ -154,7 +153,7 @@ margin-left: 2.5em;
 	margin-top: 1.2em;
 	margin-left: 1.8em;
 	width: 100%;
-
+	max-width: 1500px;
 }
 
 
@@ -321,6 +320,9 @@ margin-left: 2.5em;
 	align-items: center;
 	margin-left: 2.5em;
 	margin-top: 25px;
+	width: 100%;
+	max-width: 1800px;
+	
 }
 
 .ico_info
@@ -345,11 +347,17 @@ color: #0065FC;
 .HaM
 {
 	width: 97%;
+	height:auto;
 	display: flex;
+	flex-flow: row wrap;
     align-items: center;
     justify-content: space-between;
     margin-left: 2.5em;
     margin-top: 25px;
+    align-content: space-around;
+    background-color: pink;
+
+    
 }
 
 
@@ -366,8 +374,11 @@ h3
 .titre_hebergements
 {
 	
-	margin-left: 2em;
-	padding-right: 700px;
+	margin-left: 25px;
+	padding-right: 500px;
+	font-size: 1.2em;
+	padding-bottom: 15px;
+	padding-top: 5px;
 	
 }
 
@@ -380,10 +391,11 @@ h3
 	border-top-left-radius: 30px;
 	border-bottom-right-radius: 30px;
 	border-bottom-left-radius: 30px;
-	
+	flex-basis: 65%;
 	padding-top: 10px;
-	height: 800px;
-	width: 60%;
+	padding-bottom: 32px;
+	height: auto;
+	
 	display: flex ;
 	flex-flow: row wrap;	
 }
@@ -597,26 +609,30 @@ h3
 {
 	background-color: #F2F2F2;
 	border: 2px #F2F2F2 solid;
-	border-top-right-radius: 30px;
-	border-top-left-radius: 30px;
-	border-bottom-right-radius: 30px;
-	border-bottom-left-radius: 30px;
-	padding-top: 10px;
-	height: 800px;
-	width: 35%;
+	border-radius: 30px;
+	padding-top: 19px;
+	padding-bottom: 44px;
+	height: auto;
+	flex-basis: 31%;
 	display: flex;
-	flex-flow: row wrap;
-	margin-right: 2%;
+	flex-flow: column wrap;
+	
 }
 
 .titre_pop
 {
-    width: 100%;
+    width: 90%;
     display: flex;
     align-items: center;
-    margin-left: 2em;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    margin-left: 10px;
+    justify-content: space-between;
+    font-size: 1.2em;
 
 }
+
+
 .note_pop
 {
 	width: 100%;
@@ -624,34 +640,31 @@ h3
 .desc_pop
 {
 	
-	width: 80%;
-	height: auto;
-	margin-left: 30px;
-	padding-right: 30px;
+	
+	margin-left: 15px;
+	
     
 }
 .desc_pop_tbeb
 {
-	width: 80%;
-	height: auto;
-	margin-left: 30px;
-	padding-right: 30px;
+	
+	margin-left: 15px;
+	
 }
 
 
 .desc_pop_sol
 {
 	
-	width: 80%;
-	height: auto;
-	margin-left: 30px;
-	padding-right: 20px;
+	
+	margin-left: 15px;
+	
 }
 
 
 .fa-chart-line
 {
-	margin-left: 200px;
+	font-size: 1.8em;
 }
 
 
@@ -659,7 +672,7 @@ h3
 {
   border: 2px solid white;
   display: flex;
-  height: 23%;
+  height: auto;
   width: 88%;
   align-items: center;
   font-size: 1.2em;
@@ -693,7 +706,7 @@ h3
   display: flex;
   height: 180px;
   width: 88%;
-  height: 23%;
+  height: auto;
   align-items: center;
   font-size: 1.2em;
   background-color: white;
@@ -725,7 +738,7 @@ h3
   display: flex;
   height: 180px;
   width: 88%;
-  height: 23%;
+  height: auto;
   align-items: center;
   font-size: 1.2em;
   background-color: white;
@@ -755,6 +768,8 @@ h3
 {
 	margin-left: 2.5em;
 	margin-top: 80px;
+	width: 95%;
+	max-width: 1840px;
 	
 }
 .Activités h3
@@ -859,7 +874,7 @@ h3
 .act_4
 {
 	width: 20%;
-	margin-right: 4%;
+	
 
 }
 
@@ -909,6 +924,8 @@ h3
 	justify-content: space-between; 
 	margin-left: 1em;
 	margin-top: 60px;
+	width: 99%;
+	max-width:1870px;
 
 
 }
@@ -916,10 +933,7 @@ h3
 {
 	background-color: blue;
 }
-.bas_de_page
-{
-	width: 100%;
-}
+
 .bas_de_page ul
 {
 	list-style-type: none;
