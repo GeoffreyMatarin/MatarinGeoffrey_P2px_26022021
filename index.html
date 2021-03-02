@@ -3,9 +3,9 @@
 
     <head>
         <meta charset="utf-8" />
-        <link rel="stylesheet" href="style.css" > 
+        <link rel="stylesheet" media="screen and (min-width:1242px)" href="style.css" > 
         <link rel="stylesheet" type="text/css" media="screen and (max-width:810px)" href="style_mobile.css">
-        <link rel="stylesheet" type="text/css" media="all and (min-width:811px) and (max-width:1199px)" href="style_tablette.css">
+        <link rel="stylesheet" type="text/css" media="all and (min-width:811px) and (max-width:1241px)" href="style_tablette.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">    
         <script src="https://kit.fontawesome.com/e30966b87e.js" crossorigin="anonymous"></script>            
         <title>Reservia</title>
@@ -25,44 +25,45 @@
     		   	</div>
     		</header>
     		<section>   
-    		   	<div class="recherche_filtres">
-    				<div class="avant_recherche">
-    					<h1>Trouver votre hébérgement pour des vacances de rêve</h1>
-    					<p>En plein centre ville ou en pleine nature</p>
-    				</div>
-    				<!--Recherches-->
-    				<div class="recherche">
-    					<i class="fas fa-map-marker-alt"></i>
-    					<form method="post" action="traitement.php">
-                        	<input type="search" name="ville" value="Marseille,France" class="ville">
-                    	</form>
-                    	<button type="submit" value="Rechercher" name="rechercher" class="rechercher">rechercher</button>
-                        <button type="submit" value="Rechercher" name="rechercher_ico" class="rechercher_ico"><i class="fas fa-search"></i></button>
-    				</div>
+    		   	
+    			<div class="avant_recherche">
+    				<h1>Trouver votre hébérgement pour des vacances de rêve</h1>
+    				<p>En plein centre ville ou en pleine nature</p>
+    			</div>
+    			<!--Recherches-->
+    			<div class="recherche">
+    				<i class="fas fa-map-marker-alt"></i>
+    				<form method="post" action="traitement.php">
+                       <input type="search" name="ville" value="Marseille,France" class="ville">
+                    </form>
+                    <button type="submit" value="Rechercher" name="rechercher" class="rechercher">rechercher</button>
+                    <button type="submit" value="Rechercher" name="rechercher_ico" class="rechercher_ico">
+                        <i class="fas fa-search"></i>
+                    </button>
+    			</div>
     				<!--Filtres -->
-    				<div class="filtres">
-    					<h1>Filtres</h1>
-    					<div class="barre_filtres">
-    						<div class="eco">
-    						    <i class="fas fa-money-bill-wave"></i>
-    						    <h2>Economique</h2>
-    						</div>
-    						<div class="fam">
-    						    <i class="fas fa-child"></i>
-    						    <h2>Familial</h2>
-    						</div>	
-    						<div class="rom">
-    						    <i class="fas fa-heart"></i>
-    						    <h2>Romantique</h2>
-    						</div>	
-                            <div class="ani">
-    						    <i class="fas fa-dog"></i>
-    						    <h2>Animaux autorisés</h2>
-    						</div>	
-    							  					    
+    			<div class="filtres">
+    				<h1>Filtres</h1>
+    				<div class="barre_filtres">
+    					<div class="eco">
+    						   <i class="fas fa-money-bill-wave"></i>
+    						   <h2>Economique</h2>
     					</div>
+    					<div class="fam">
+    						  <i class="fas fa-child"></i>
+    						   <h2>Familial</h2>
+    					</div>	
+    					<div class="rom">
+    						   <i class="fas fa-heart"></i>
+    						   <h2>Romantique</h2>
+    					</div>	
+                           <div class="ani">
+    						   <i class="fas fa-dog"></i>
+    						   <h2>Animaux autorisés</h2>
+    					</div>	    						  					    
     				</div>
     			</div>
+    			
     			<div class="nombres_logements">
     				<div class="ico_info">
     					<i class="fas fa-info"></i>
@@ -73,79 +74,99 @@
     			</div>
     		</section>
     		<section>
-    			<div class="HaM">
-                    
-    					
+    			<div class="HaM">			
     					<div class="hebergements">
                             <div class="titre_hebergements">
                             <h1>Hébergements à Marseille</h1>
                             </div>
-    						<div class="cannebiere">
-    							<a href="images/hebergements/large/cannebiere_large.jpg"><img src="images/hebergements/small/auberge_cannebiere.jpg " alt=""></a>
+    						<div class="heb_block">
+    							<div class="img_can">    
+                                     <a href="images/hebergements/large/cannebiere_large.jpg"><img src="images/hebergements/small/auberge_cannebiere.jpg " alt=""></a>
+                                </div>     
                     			<div class="desc">
                         			<div class="titre_desc">
-                                        <h3>Auberge la Cannebière</h3> 
+                                       Auberge la Cannebière
                                     </div>
                                     <div class="text_desc">    
-                            		    <p>nuit a partir de <strong>25€</strong></p> 
+                            		    nuit a partir de <strong>25€</strong>
                                     </div>  
-                          				  <div class="note">
-                            				    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star grey"></i>
-                          				  </div>
+                          			<div class="note">
+                            			<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star grey"></i>
+                          			</div>
                             	</div>
     						</div>
-    						<div class="hotel_du_port">
+    						<div class="heb_block">
     							<a href="images/hebergements/large/hotel_du_port_large.jpg"><img src="images/hebergements/small/hotel_du_port.jpg" alt="" ></a>
                     			<div class="desc">
-                        			<h3>Hôtel du port</h3> 
-                            		<p>nuit a partir de <strong>52€</strong></p> 
-                          				<div class="note">
-                            				<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                          				</div>	
+                                    <div class="titre_desc">
+                        			    Hôtel du port
+                                    </div>
+                                    <div class="text_desc">   
+                                		nuit a partir de <strong>52€</strong>
+                                    </div>
+                              		<div class="note">
+                                		<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                              		</div>	
     							</div>
     				    	</div>
-    				    	<div class="hotel_des_mouettes">
+    				    	<div class="heb_block">
     							<a href="images/hebergements/large/hotel_des_mouettes_large.jpg"><img src="images/hebergements/small/hotel_des_mouettes.jpg" alt=""></a>
                     			<div class="desc">
-                        			<h3>Hôtel des mouettes</h3> 
-                            		<p>nuit a partir de <strong>75€</strong></p> 
-                          				<div class="note">
-                            			   	<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star grey"></i>
-                          				</div>
-                           		 </div>
+                                        <div class="titre_desc">
+                            			    Hôtel des mouettes
+                                        </div>
+                                        <div class="text_desc">     
+                                    		nuit a partir de <strong>75€</strong> 
+                                        </div>    
+                                  			<div class="note">
+                                    			<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star grey"></i>
+                                  			</div>
+                           	    </div>
     						</div>
-    						<div class="hotel_de_la_mer">
+    						<div class="heb_block">
     							<a href="images/hebergements/large/hotel_bord_large.jpg"><img src="images/hebergements/small/hotel_bord.jpg" alt="" ></a>
                     			<div class="desc">
-                        			<h3>Hôtel de la mer</h3> 
-                            		<p>nuit a partir de <strong>46€</strong></p> 
-                          				<div class="note">
-                            			   	<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star grey"></i><i class="fas fa-star grey"></i>
-                          				</div>	
+                                        <div class="titre_desc">
+                                			Hôtel de la mer 
+                                        </div>
+                                        <div class="text_desc">   
+                                        	nuit a partir de <strong>46€</strong>
+                                        </div>        
+                                      		<div class="note">
+                                        	<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star grey"></i><i class="fas fa-star grey"></i>
+                                      	</div>	
                             	</div>
     						</div>
-    						<div class="auberge_le_panier">
+    						<div class="heb_block">
     							<a href="images/hebergements/large/le_panier_large.jpg"><img src="images/hebergements/small/le_panier.jpg" alt=""></a>
                     			<div class="desc">
-                        			<h3>Auberge le panier</h3> 
-                            		<p>nuit a partir de <strong>23€</strong></p> 
-                          				<div class="note">
-                            			   	<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star grey"></i>
-                          				</div>
+                                        <div class="titre_desc">
+                                			Auberge le panier
+                                        </div>
+                                        <div class="text_desc">   
+                                    		nuit a partir de <strong>23€</strong>
+                                        </div>     
+                                  				<div class="note">
+                                    			   	<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star grey"></i>
+                                  				</div>
                             	</div>
     						</div>
-    						<div class="chez_amina">
+    						<div class="heb_block">
     							<a href="images/hebergements/large/chez_amina-large.jpg"><img src="images/hebergements/small/chez_amina.jpg" alt="" ></a>
                     			<div class="desc">
-                        			<h3>Hôtel chez Amina</h3> 
-                            		<p>nuit a partir de <strong>96€</strong></p> 
+                                    <div class="titre_desc">
+                        			  Hôtel chez Amina
+                                    </div>
+                                    <div class="text_desc">
+                            		   nuit a partir de <strong>96€</strong>
+                                    </div> 
                           				<div class="note">
                             			   	<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                           				</div>
     							</div>
     				    	</div>
                             <div class="plus">
-                            <button style="border:0px" type="button" value="activer" name="afficher plus" id="afficher">Afficher plus</button>
+                                <button  type="button" value="activer" name="afficher plus" class="afficher">Afficher plus</button>
                             </div>
     			    	</div>
     			   
