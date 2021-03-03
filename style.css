@@ -13,7 +13,7 @@ font-face
 {
 	font-family: ralewaythin, sans-serif;
 	width: 100%;
-	max-width: 1870px;
+	
 	
 }
 
@@ -22,6 +22,8 @@ font-face
 	display: flex;
 	align-items:center;
 	justify-content: space-between;
+	width: 100%;
+	margin-right: 10px;
 	
 }
 .logo_nav img
@@ -38,19 +40,23 @@ font-face
 .logo_nav li
 {
 	display: inline;
-	margin-right: 10px; 
+	 
 }
 .logo_nav a
 {
 	 font-size: 1.3em;
 	 text-decoration: none;
-	 margin-right: 40px;
+	 margin-right: 20px;
 	 color: #0065FC;
 }
 .heb
 {
 	border-top: 2px solid #0065FC ;
 	padding: 20px 30px 0px 20px ;
+}
+.ac
+{
+	padding-right: 30px;
 }
 .avant_recherche h1
 {
@@ -136,6 +142,8 @@ font-face
 	background-color: #DEEBFF;
 	padding: 22px 21px 22px 15px;
 	border-radius: 30px;
+	position: relative;
+	left: -2px;
 }
 .fam
 {
@@ -152,6 +160,8 @@ font-face
 	background-color: #DEEBFF;
 	padding: 22px 25px 22px 20px;
 	border-radius: 30px;
+	position: relative;
+	left: -2px;
 }
 .rom
 {
@@ -168,6 +178,8 @@ font-face
 	background-color: #DEEBFF;
 	padding: 22px 25px 22px 20px;
 	border-radius: 30px;
+	position: relative;
+	left: -2px;
 }
 .ani
 {
@@ -184,6 +196,8 @@ font-face
 	background-color: #DEEBFF;
 	padding: 22px 25px 22px 20px;
 	border-radius: 30px;
+	position: relative;
+	left: -2px;
 }
 .nombres_logements
 {
@@ -207,19 +221,23 @@ font-face
 {
    width: auto;
    display: flex;
+   flex-flow: row wrap;
    justify-content: space-between;
    align-items: flex-start;
+   margin-left: 20px;
+   margin-right: 20px
+   
 
 }
 .hebergements
 {
-   flex-basis: 65%;
+   flex-basis: 100%;
    display: flex;
    flex-flow: row wrap;
    background-color: #F2F2F2;
    justify-content: space-around;
    align-items: center;
-   height: 900px;
+   height: auto;
    border-radius: 30px;
 
    
@@ -227,7 +245,7 @@ font-face
 .titre_hebergements
 {
 	font-size: 1.5em;
-	padding-right: 300px;
+	
 	width: 100%;
 	margin-left: 20px;
 }
@@ -260,9 +278,10 @@ font-face
 {
     border: 3px solid white;
     border-radius: 30px;
-    height: 300px;
+    height: auto;
     background-color: white;
-    width: 30%;
+    width: 350px;
+    margin-bottom: 40px;
 
 }
 .heb_block img
@@ -293,4 +312,192 @@ font-face
 .populaires
 {
 	flex-basis: 30%;
+	background-color: #F2F2F2;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	height: 800px;
+	border-radius: 30px;
+}
+.titre_pop
+{
+	font-size: 1.5em;
+	display: flex;
+	align-items: center;
+	width: 90%;
+	justify-content: space-between;
+}
+.block_pop
+{
+	display: flex;
+	background-color: white;
+	border: 3px solid white;
+	border-radius: 30px;
+	width: 500px;
+	height: 180px;
+
+}
+
+.block_pop img
+{
+	border-radius: 30px 0px 0px 30px;
+	height: 180px;
+	width: 180px;
+}
+
+.desc_pop
+{
+	width: 50%;
+	margin-left: 30px;
+}
+
+.titre_desc_pop
+{
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-top: 15px;
+}
+.text_desc_pop
+{
+	font-size: 1.2em;
+	margin-top: 10px;
+}
+.note_pop1
+{
+	padding-top: 52px;
+}
+.note_pop2
+{
+	padding-top: 51px;
+}
+.note_pop3
+{
+	margin-top: 51px;
+}
+.Activités
+{
+	margin-left: 20px;
+	margin-top: 60px;
+	margin-right: 20px;
+}
+.block_activites
+{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	width: 99.5%;
+}
+.desc_act
+{
+	font-size: 1.5em;
+	font-weight: bold;
+	padding-left: 25px;
+	padding-top: 15px;
+}
+.act_1
+{
+   border-radius: 30px ;
+   border: 1px solid #F2F2F2;
+   width: 400px;
+   height: 585px;
+   box-shadow: 2px 2px 2px 2px #F2F2F2;
+   margin-bottom: 20px;
+}
+.act_1 img
+{
+	border-radius: 30px 30px 0px 0px;
+	width: 400px;
+}
+.act_2
+{
+   width: 400px;
+   height: 585px;
+   display: flex;
+   flex-flow: row wrap;
+   align-content: space-between;
+   margin-bottom: 40px;
+}
+.act_2 img
+{
+	border-radius: 30px 30px 0px 0px;
+}
+.fort
+{
+	border-radius: 30px ;
+    border: 1px solid #F2F2F2;
+	height: 290px;
+	width: 400px;
+	box-shadow: 2px 2px 2px 2px #F2F2F2;
+}
+.fort img
+{
+	width: 400px;
+}
+
+.iles
+{
+	border-radius: 30px ;
+    border: 1px solid #F2F2F2;
+	height: 240px;
+	width: 400px;
+	box-shadow: 2px 2px 2px 2px #F2F2F2;
+}
+.iles img
+{
+	width: 400px
+}
+.notre_dame
+{
+	border-radius: 30px ;
+    border: 1px solid #F2F2F2;
+	height: 255px;
+	width: 400px;
+	box-shadow: 2px 2px 2px 2px #F2F2F2;
+}
+.notre_dame img
+{
+	width: 400px;
+}
+.parc_long
+{
+	border-radius: 30px ;
+    border: 1px solid #F2F2F2;
+	height: 280px;
+	width: 400px;
+	box-shadow: 2px 2px 2px 2px #F2F2F2;
+}
+.parc_long img
+{
+	width: 400px;
+}
+.bas_de_page
+{
+	display: flex;
+	justify-content: space-between;
+	background-color: #F2F2F2;
+	width: 100%;
+	height: 160px;
+	padding-top: 50px;
+	margin-top: 60px;
+}
+.bas_de_page ul
+{
+	list-style-type: none;
+}
+
+.bas_de_page a
+{
+	text-decoration: none;
+	color: black;
+	font-size: 1.2em;
+}
+.titre_bas_de_pages
+{
+	font-size: 1.5em;
+	font-weight: bold;
+	padding-left: 37px;
+}
+.Assistance
+{
+	padding-right: 550px;
 }
