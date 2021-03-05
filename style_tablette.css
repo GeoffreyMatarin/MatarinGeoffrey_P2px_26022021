@@ -13,6 +13,7 @@ font-face
 body
 {
 	margin: 0px;
+	width: 100%;
 }
 .block_page
 {
@@ -30,7 +31,7 @@ body
 }
 .logo_nav img
 {
-	width: 150px;
+	width: 13vw;
 	padding-left: 20px;
 }
 .logo_nav ul
@@ -46,7 +47,7 @@ body
 }
 .logo_nav a
 {
-	 font-size: 1.3em;
+	 font-size: 2vw;
 	 text-decoration: none;
 	 margin-right: 20px;
 	 color: #0065FC;
@@ -62,13 +63,13 @@ body
 }
 .avant_recherche h1
 {
-   font-size: 2em;
+   font-size: 3.6vw;
    padding-left: 20px;
    margin-bottom: 0px;
 }
 .avant_recherche p
 {
-   font-size: 1.5em;
+   font-size: 3vw;
    padding-left: 20px;
    margin-top: 10px;
 }
@@ -86,7 +87,7 @@ body
 }
 .fa-map-marker-alt
 {
-    font-size: 1.7em;
+    font-size: 2.5vw;
     border: 2px solid #F2F2F2;
     background-color: #F2F2F2;
     padding: 12px 16px 13px 16px;
@@ -94,14 +95,14 @@ body
 }
 .ville
 {
-    font-size: 1.6em;
+    font-size: 2.4vw;
     padding: 11px 0px 12px 30px;
     border: 2px solid #F2F2F2;
     font-weight: bold;
 }
 .rechercher
 {
-    font-size: 1.6em;
+    font-size: 2.4vw;
     background-color: #0065FC;
     color: white;
     border: 2px solid #F2F2F2;
@@ -114,33 +115,37 @@ body
 	display: flex;
 	align-items: center;
 	flex-flow: row wrap;
-	margin-left: 20px;
-	
+	margin-left: 1vw;
+
 }
 .filtres h1
 {
-	margin-right: 20px;	
+	margin-right: 20px;
+	padding-bottom: 14vw;	
 }
 .barre_filtres
 {
 	display: flex;
 	flex-flow: row wrap;
 	align-items: center;
+	width: 70vw;
+
 }
 .barre_filtres h2
 {
-	font-size: 1.4em;
-	padding: 0px 20px 0px 20px;
+	font-size: 1.4vw;
+	padding: 0px 3vw 0px 3vw;
 }
 .eco
 {
     display: flex;
 	align-items: center;
-	margin-right: 20px;	
+	margin-right: 3vw;	
 	border: 2px solid #F2F2F2;
 	border-radius: 35px;
 	padding: 0px 10px 0px 0px;
-	margin-bottom: 20px;
+	margin-bottom: 3vw;
+	
 }
 .fa-money-bill-wave
 {
@@ -150,16 +155,18 @@ body
 	border-radius: 30px;
 	position: relative;
 	left: -2px;
+	color: #0065FC;
 }
 .fam
 {
     display: flex;
 	align-items: center;
-	margin-right: 180px;	
+	margin-right: 3vw;	
 	border: 2px solid #F2F2F2;
 	border-radius: 35px;
 	padding: 0px 10px 0px 0px;
-    margin-bottom: 20px;
+	margin-bottom: 3vw;
+    
 }
 .fa-child
 {
@@ -169,15 +176,18 @@ body
 	border-radius: 30px;
 	position: relative;
 	left: -2px;
+	color: #0065FC;
 }
 .rom
 {
     display: flex;
 	align-items: center;
-	margin-right: 20px;	
+	margin-right: 3vw;	
 	border: 2px solid #F2F2F2;
 	border-radius: 35px;
 	padding: 0px 10px 0px 0px;
+	margin-bottom: 3vw;
+
 
 }
 .fa-heart
@@ -188,15 +198,16 @@ body
 	border-radius: 30px;
 	position: relative;
 	left: -2px;
+	color: #0065FC;
 }
 .ani
 {
     display: flex;
 	align-items: center;
-	margin-right: 20px;	
 	border: 2px solid #F2F2F2;
 	border-radius: 35px;
 	padding: 0px 10px 0px 0px;
+	margin-bottom: 3vw;
 }
 .fa-dog
 {
@@ -206,6 +217,7 @@ body
 	border-radius: 30px;
 	position: relative;
 	left: -2px;
+	color: #0065FC;
 }
 .nombres_logements
 {
@@ -215,15 +227,16 @@ body
 }
 .nombres_logements p
 {
-	font-size: 1.5em;
+	font-size: 3vw;
 }
 .ico_info
 {
-    font-size: 1.2em;
+    font-size: 3vw;
     border: 2px solid #F2F2F2;
-    padding: 2px 10px 2px 10px;
+    padding: 2px 15px 2px 15px;
     border-radius: 30px;
     margin-right: 10px;
+    color: #0065FC;
 }
 .HaM
 {
@@ -253,7 +266,7 @@ body
 }
 .titre_hebergements
 {
-	font-size: 1.4em;
+	font-size: 3vw;
 	padding-right: 300px;
 	width: 100%;
 	margin-left: 20px;
@@ -261,23 +274,26 @@ body
 .desc
 {
 	border-radius: 30px;
-	margin-left: 15px
+	margin-left: 1vw;
+	height: 9vw;
+	
 }
 .titre_desc
 {
-	font-size: 1.3em;
+	font-size: 2vw;
 	font-weight: bold;
 	margin-bottom: 5px;
 }
 .text_desc
 {
 	margin-bottom: 0px;
-	font-size: 1.2em;
+	font-size: 1.7vw;
 	margin-bottom: 7px;
 }
 .fa-star
 {
 	color: #0065FC;
+	font-size: 1.5vw;
 }
 .grey
 {
@@ -287,9 +303,9 @@ body
 {
     border: 3px solid white;
     border-radius: 30px;
-    height: auto;
+    height: 26vw;
     background-color: white;
-    width: 250px;
+    width: 30vw;
     margin-bottom: 40px;
     margin-right: 5px;
 
@@ -299,6 +315,7 @@ body
 	width: 100%;
 	border-radius: 30px 30px 0px 0px;
 	background-color: purple;
+	object-fit: cover;
 
 }
 
@@ -326,11 +343,11 @@ body
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-around;
-	height: 800px;
+	height: 100vw;
 }
 .titre_pop
 {
-	font-size: 1.5em;
+	font-size: 3vw;
 	display: flex;
 	align-items: center;
 	width: 90%;
@@ -342,16 +359,17 @@ body
 	background-color: white;
 	border: 3px solid white;
 	border-radius: 30px;
-	width: 85%;
-	height: 180px;
+	width: 65vw;
+	height: 19vw;
 
 }
 
 .block_pop img
 {
 	border-radius: 30px 0px 0px 30px;
-	height: 180px;
-	width: 220px;
+	height: 19vw;
+	width: 22vw;
+	object-fit: cover;
 }
 
 .desc_pop
@@ -362,32 +380,39 @@ body
 
 .titre_desc_pop
 {
-	font-size: 1.5em;
+	font-size: 2vw;
 	font-weight: bold;
 	margin-top: 15px;
 }
 .text_desc_pop
 {
-	font-size: 1.2em;
+	font-size: 1.7vw;
 	margin-top: 10px;
 }
 .note_pop1
 {
-	padding-top: 52px;
+	padding-top: 6vw;
+	font-stretch: 1vw;
 }
 .note_pop2
 {
-	padding-top: 51px;
+	padding-top: 6vw;
+	font-stretch: 1vw;
 }
 .note_pop3
 {
-	margin-top: 81px;
+	margin-top: 8vw;
+	font-stretch: 1vw;
 }
 .Activités
 {
-	margin-left: 20px;
-	margin-top: 60px;
-	margin-right: 20px;
+	margin-left: 2vw;
+	margin-top: 3vw;
+	margin-right: 2vw;
+}
+.titre_act
+{
+	font-size: 3vw;
 }
 .block_activites
 {
@@ -398,7 +423,7 @@ body
 }
 .desc_act
 {
-	font-size: 1.5em;
+	font-size: 2vw;
 	font-weight: bold;
 	padding-left: 25px;
 	padding-top: 15px;
@@ -407,23 +432,23 @@ body
 {
    border-radius: 30px ;
    border: 1px solid #F2F2F2;
-   width: 300px;
-   height: 585px;
+   width: 40vw;
+   height: 56vw;
    box-shadow: 2px 2px 2px 2px #F2F2F2;
-   margin-bottom: 20px;
+   margin-bottom: 3vw;
 }
 .act_1 img
 {
 	border-radius: 30px 30px 0px 0px;
-	width: 300px;
-	height: 500px;
+	width: 40vw;
+	height: 48vw;
 	object-fit: cover;
 
 }
 .act_2
 {
-   width: 400px;
-   height: 585px;
+   width: 40vw;
+   height: 56vw;
    display: flex;
    flex-flow: row wrap;
    align-content: space-between;
@@ -437,50 +462,57 @@ body
 {
 	border-radius: 30px ;
     border: 1px solid #F2F2F2;
-	height: 290px;
-	width: 400px;
+	height: 28vw;
+	width: 40vw;
 	box-shadow: 2px 2px 2px 2px #F2F2F2;
 }
 .fort img
 {
-	width: 400px;
+	width: 40vw;
+	height: 20vw;
+	object-fit: cover;
 }
 
 .iles
 {
 	border-radius: 30px ;
     border: 1px solid #F2F2F2;
-	height: 240px;
-	width: 400px;
+	height: 23vw;
+	width: 40vw;
 	box-shadow: 2px 2px 2px 2px #F2F2F2;
 }
 .iles img
 {
-	width: 400px
+	width: 40vw;
+	height: 15vw;
+	object-fit: cover;
 }
 .notre_dame
 {
 	border-radius: 30px ;
     border: 1px solid #F2F2F2;
-	height: 255px;
-	width: 400px;
+	height: 25vw;
+	width: 40vw;
 	box-shadow: 2px 2px 2px 2px #F2F2F2;
 }
 .notre_dame img
 {
-	width: 400px;
+	width: 40vw;
+	height: 17vw;
+	object-fit: cover;
 }
 .parc_long
 {
 	border-radius: 30px ;
     border: 1px solid #F2F2F2;
-	height: 280px;
-	width: 400px;
+	height: 26vw;
+	width: 40vw;
 	box-shadow: 2px 2px 2px 2px #F2F2F2;
 }
 .parc_long img
 {
-	width: 400px;
+	width: 40vw;
+	height: 18vw;
 }
 .bas_de_page
 {
@@ -488,15 +520,11 @@ body
 	justify-content: space-between;
 	background-color: #F2F2F2;
 	width: 100%;
-	height: 160px;
+	height: 18vw;
 	padding-top: 50px;
 	margin-top: 60px;
 }
-.bas_de_pages
-{
-	display: flex;
-	justify-content: space-around;
-}
+
 .bas_de_page ul
 {
 	list-style-type: none;
@@ -506,17 +534,17 @@ body
 {
 	text-decoration: none;
 	color: black;
-	font-size: 1.2em;
+	font-size: 1.7vw;
 }
 .titre_bas_de_pages
 {
-	font-size: 1.5em;
+	font-size: 2vw;
 	font-weight: bold;
-	padding-left: 37px;
+	padding-left: 3.8vw;
 }
 .Assistance
 {
-	padding-right: 10px;
+	padding-right: 2vw;
 }
 .a_propos
 {

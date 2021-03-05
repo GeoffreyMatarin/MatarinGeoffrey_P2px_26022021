@@ -1,5 +1,5 @@
 
-@media screen and (min-width:1242px)
+@media screen and (min-width:1025px)
 
 font-face 
 {
@@ -30,7 +30,7 @@ font-face
 }
 .logo_nav img
 {
-	width: 150px;
+	width: 12vw;
 	padding-left: 20px;
 }
 .logo_nav ul
@@ -46,7 +46,7 @@ font-face
 }
 .logo_nav a
 {
-	 font-size: 1.3em;
+	 font-size: 1.3vw;
 	 text-decoration: none;
 	 margin-right: 20px;
 	 color: #0065FC;
@@ -62,13 +62,13 @@ font-face
 }
 .avant_recherche h1
 {
-   font-size: 2em;
+   font-size: 2vw;
    padding-left: 20px;
    margin-bottom: 0px;
 }
 .avant_recherche p
 {
-   font-size: 1.5em;
+   font-size: 1.5vw;
    padding-left: 20px;
    margin-top: 10px;
 }
@@ -85,7 +85,7 @@ font-face
 }
 .fa-map-marker-alt
 {
-    font-size: 1.7em;
+    font-size: 1.7vw;
     border: 2px solid #F2F2F2;
     background-color: #F2F2F2;
     padding: 12px 16px 13px 16px;
@@ -93,14 +93,14 @@ font-face
 }
 .ville
 {
-    font-size: 1.6em;
+    font-size: 1.6vw;
     padding: 11px 0px 12px 30px;
     border: 2px solid #F2F2F2;
     font-weight: bold;
 }
 .rechercher
 {
-    font-size: 1.6em;
+    font-size: 1.6vw;
     background-color: #0065FC;
     color: white;
     border: 2px solid #F2F2F2;
@@ -117,16 +117,19 @@ font-face
 .filtres h1
 {
 	margin-right: 20px;	
+	font-size: 1.5vw;
 }
 .barre_filtres
 {
 	display: flex;
 	align-items: center;
+	width: 65%;
+	
 
 }
 .barre_filtres h2
 {
-	font-size: 1.4em;
+	font-size: 1vw;
 	padding: 0px 20px 0px 20px;
 }
 .eco
@@ -194,6 +197,7 @@ font-face
 	border: 2px solid #F2F2F2;
 	border-radius: 35px;
 	padding: 0px 10px 0px 0px;
+
 }
 .fa-dog
 {
@@ -213,15 +217,16 @@ font-face
 }
 .nombres_logements p
 {
-	font-size: 1.5em;
+	font-size: 1.5vw;
 }
 .ico_info
 {
-    font-size: 1.2em;
+    font-size: 1.2vw;
     border: 2px solid #F2F2F2;
     padding: 2px 10px 2px 10px;
     border-radius: 30px;
     margin-right: 10px;
+    color: #0065FC;
 }
 .HaM
 {
@@ -243,14 +248,14 @@ font-face
    background-color: #F2F2F2;
    justify-content: space-around;
    align-items: center;
-   height: auto;
+   height: 50vw;
    border-radius: 30px;
 
    
 }
 .titre_hebergements
 {
-	font-size: 1.5em;
+	font-size: 1.5vw;
 	
 	width: 100%;
 	margin-left: 20px;
@@ -262,31 +267,37 @@ font-face
 }
 .titre_desc
 {
-	font-size: 1.5em;
+	font-size: 1.5vw;
 	font-weight: bold;
-	margin-bottom: 5px;
+	margin-bottom: 0.5vw;
 }
 .text_desc
 {
-	margin-bottom: 0px;
-	font-size: 1.2em;
-	margin-bottom: 7px;
+	font-size: 1.2vw;
+	margin-bottom: 0.5vw;
 }
+.note
+{
+	margin-bottom: 0.5vw;
+}
+
 .fa-star
 {
 	color: #0065FC;
+	font-size: 1vw;
 }
 .grey
 {
 	color: #F2F2F2;
+	font-size: 1vw;
 }
 .heb_block
 {
     border: 3px solid white;
     border-radius: 30px;
-    height: auto;
+    height: 16vw;
     background-color: white;
-    width: 350px;
+    width: 18vw;
     margin-bottom: 40px;
 
 }
@@ -301,10 +312,11 @@ font-face
 .afficher
 {
 	
-	font-size: 1.3em;
-	padding: 10px 10px 10px 10px;
+	font-size: 1.3vw;
+	background-color: #F2F2F2;
 	font-weight: bold;
 	border: none;
+	margin-bottom: 1vw;
 }
 .plus
 {
@@ -322,12 +334,13 @@ font-face
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-around;
-	height: 800px;
+	height: 48.2vw;
 	border-radius: 30px;
+	padding-bottom: 30px;
 }
 .titre_pop
 {
-	font-size: 1.5em;
+	font-size: 1.5vw;
 	display: flex;
 	align-items: center;
 	width: 90%;
@@ -339,52 +352,59 @@ font-face
 	background-color: white;
 	border: 3px solid white;
 	border-radius: 30px;
-	width: 500px;
-	height: 180px;
+	width: 25vw;
+	height: 9.5vw;
+	margin-bottom: 40px;
 
 }
 
 .block_pop img
 {
 	border-radius: 30px 0px 0px 30px;
-	height: 180px;
-	width: 180px;
+	height: 9.5vw;
+	width: 10vw;
+	object-fit: cover;
 }
 
 .desc_pop
 {
-	width: 50%;
-	margin-left: 30px;
+	width: 20vw;
+	margin-left: 1vw;
+	height: 9vw;
 }
 
 .titre_desc_pop
 {
-	font-size: 1.5em;
+	font-size: 1.2vw;
 	font-weight: bold;
-	margin-top: 15px;
+	margin-top: 1vw;
 }
 .text_desc_pop
 {
-	font-size: 1.2em;
-	margin-top: 10px;
+	font-size: 1vw;
+	margin-top: 0.5vw;
 }
-.note_pop1
+.note_pop
 {
-	padding-top: 52px;
+	margin-top: 2.4vw;
+	font-size: 1vw;
+	margin-bottom: 1vw;
+	width: 10vw;
 }
-.note_pop2
+.notepop3
 {
-	padding-top: 51px;
+	padding-top: 1.5vw;
 }
-.note_pop3
-{
-	margin-top: 51px;
-}
+
 .Activités
 {
 	margin-left: 20px;
 	margin-top: 60px;
 	margin-right: 20px;
+}
+.titre_act
+{
+ 	font-size: 1.5vw;
 }
 .block_activites
 {
@@ -395,86 +415,95 @@ font-face
 }
 .desc_act
 {
-	font-size: 1.5em;
+	font-size: 1.4vw;
 	font-weight: bold;
-	padding-left: 25px;
-	padding-top: 15px;
+	padding-left: 1vw;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
 }
 .act_1
 {
    border-radius: 30px ;
    border: 1px solid #F2F2F2;
-   width: 400px;
-   height: 585px;
+   width: 21.2vw;
+   height: 32vw;
    box-shadow: 2px 2px 2px 2px #F2F2F2;
    margin-bottom: 20px;
 }
 .act_1 img
 {
 	border-radius: 30px 30px 0px 0px;
-	width: 400px;
+	width: 21.2vw;
+	height: 28vw;
+	object-fit: cover;
 }
 .act_2
 {
-   width: 400px;
-   height: 585px;
+   width: 21.2vw;
+   height: 32vw;
    display: flex;
    flex-flow: row wrap;
    align-content: space-between;
    margin-bottom: 40px;
+   border-radius: 30px;
 }
 .act_2 img
 {
 	border-radius: 30px 30px 0px 0px;
+	object-fit: cover;
 }
 .fort
 {
 	border-radius: 30px ;
     border: 1px solid #F2F2F2;
-	height: 290px;
-	width: 400px;
+	height: 14.5vw;
+	width: 21.1vw;
 	box-shadow: 2px 2px 2px 2px #F2F2F2;
 }
 .fort img
 {
-	width: 400px;
+	width: 21.1vw;
+	height: 11vw;
 }
 
 .iles
 {
 	border-radius: 30px ;
     border: 1px solid #F2F2F2;
-	height: 240px;
-	width: 400px;
+	height: 12vw;
+	width: 21.1vw;
 	box-shadow: 2px 2px 2px 2px #F2F2F2;
 }
 .iles img
 {
-	width: 400px
+	width: 21.1vw;
+	height: 8.5vw;
 }
 .notre_dame
 {
 	border-radius: 30px ;
     border: 1px solid #F2F2F2;
-	height: 255px;
-	width: 400px;
+	height: 13.5vw;
+	width: 21.1vw;
 	box-shadow: 2px 2px 2px 2px #F2F2F2;
 }
 .notre_dame img
 {
-	width: 400px;
+	width: 21.1vw;
+	height: 10vw;
 }
 .parc_long
 {
 	border-radius: 30px ;
     border: 1px solid #F2F2F2;
-	height: 280px;
-	width: 400px;
+	height: 14vw;
+	width: 21.1vw;
 	box-shadow: 2px 2px 2px 2px #F2F2F2;
 }
 .parc_long img
 {
-	width: 400px;
+	width: 21.1vw;
+	height: 10vw;
 }
 .bas_de_page
 {
@@ -495,15 +524,15 @@ font-face
 {
 	text-decoration: none;
 	color: black;
-	font-size: 1.2em;
+	font-size: 1.2vw;
 }
 .titre_bas_de_pages
 {
-	font-size: 1.5em;
+	font-size: 1.5vw;
 	font-weight: bold;
-	padding-left: 37px;
+	padding-left: 2.5vw;
 }
 .Assistance
 {
-	padding-right: 550px;
+	padding-right: 30vw;
 }

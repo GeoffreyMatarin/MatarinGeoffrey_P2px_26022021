@@ -13,13 +13,13 @@ font-face
 body
 {
     margin: 0px;
+    width: 100%;
 }
+
 .logo
 {
     width: 100%;
-}
-	
-	
+}		
 .block_page
 {
 	font-family: ralewaythin, sans-serif;
@@ -36,7 +36,7 @@ body
  }
 .logo_nav img
 {
-    width: 100px;
+    width: 20vw;
     height: auto;
     padding-left: 20px;
     margin-top: 20px;
@@ -72,15 +72,15 @@ body
 }
 .avant_recherche h1
 {
-    font-size: 1.4em;
+    font-size: 6.5vw;
     
     
-    margin-left: 10px;
+    margin-left: 2vw;
 }
 .avant_recherche p
 {
-    font-size: 1em;
-    margin-left: 10px;
+    font-size: 4vw;
+    margin-left: 2vw;
 }
     
 .rechercher
@@ -92,6 +92,7 @@ body
     display: flex;
     align-items: center;
     margin-right: 10px;
+    width: 100%;
     
 
 }
@@ -99,16 +100,17 @@ body
 {
    border: 1px solid #F2F2F2;
    border-radius: 12px 0px 0px 12px;
-   margin-left: 10px;
-   padding: 14px 15px 14px 15px;
+   margin-left: 2vw;
+   padding: 2.5vw 2.6vw 2.5vw 2.6vw ; 
    background-color: #F2F2F2;
+   font-size: 4vw;
    
 }
 .ville
 {
-    font-size: 1.2em;
+    font-size: 4vw;
     font-weight: bold;
-    padding: 10px 0px 10px 20px;
+    padding: 2vw 0px 2vw 6vw;
     border: 2px solid #F2F2F2;
     width: 99%;
     
@@ -119,21 +121,23 @@ body
     background-color: #0065FC;
     border: 1px solid #0065FC;
     color: white;
-    padding: 15px 15px 14px 15px;
+    padding: 2.2vw 2.2vw 2.2vw 2.2vw;
     border-radius: 12px;
     position: relative;
     left: -14px;
+    font-size: 4vw;
     
 }
 .filtres
 {
     display: flex;
     flex-flow: row wrap;
-    margin-left: 10px;
+    margin-left: 2vw;
 }
 .filtres h1
 {
-    padding-right: 30px; 
+    padding-right: 2vw; 
+    font-size: 6.5vw;
 }
 .barre_filtres
 {
@@ -143,29 +147,31 @@ body
 }
 .barre_filtres h2
 {
-    font-size: 1em;
-    padding: 0px 10px 0px 10px;
+    font-size: 3vw;
+    padding: 0px 4vw 0px 3vw;
 }
 .eco
 {
     display: flex;
     align-items: center;
-    width: 170px;
-    margin-right: 5px;
-    margin-bottom: 10px; 
+    width: 45vw;
+    height: 12vw;
+    margin-right: 2vw; 
+    margin-bottom: 3vw; 
     border: 2px solid #F2F2F2;
-    border-radius: 35px;
+    border-radius: 40px;
     
 }
 .fa-money-bill-wave
 {
     border: 2px solid #DEEBFF;
     background-color: #DEEBFF;
-    padding: 17px 16px 17px 10px;
-    border-radius: 30px;
+    padding: 4.5vw 4.5vw 4.5vw 4.5vw; 
+    border-radius: 45px;
     position: relative;
-    left: -2px;
+    left: -1vw;
     color: #0065FC;
+    font-size: 3vw;
 }
 .fam
 {
@@ -174,39 +180,46 @@ body
     margin-right: 5px;
     margin-bottom: 10px; 
     border: 2px solid #F2F2F2;
-    border-radius: 35px;
+    border-radius: 45px;
     padding: 0px 20px 0px 0px;
-    width: 120px
+    width: 36vw;
+    height: 12vw;
 }
 .fa-child
 {
     border: 2px solid #DEEBFF;
     background-color: #DEEBFF;
-    padding: 17px 17px 17px 17px;
-    border-radius: 30px;
+    padding: 4.5vw 4.5vw 4.5vw 4.5vw;
+    border-radius: 45px;
     position: relative;
-    left: -2px;
+    left: -1vw;
     color: #0065FC;
+    font-size: 3vw;
 }
 .rom
 {
     display: flex;
     align-items: center;
     margin-right: 20px;
-    margin-bottom: 10px; 
+    margin-bottom: 3vw; 
     border: 2px solid #F2F2F2;
-    border-radius: 35px;
+    border-radius: 45px;
     padding: 0px 10px 0px 0px;
+    height: 12vw;
+    width: 43vw;
+
 }
 .fa-heart
 {
     border: 2px solid #DEEBFF;
     background-color: #DEEBFF;
-    padding: 17px 17px 17px 17px;
-    border-radius: 30px;
+    padding: 4.5vw 4.5vw 4.5vw 4.5vw;
+    border-radius: 45px;
     position: relative;
-    left: -2px;
+    left: -1vw;
     color: #0065FC;
+    font-size: 3vw;
+
 }
 .ani
 {
@@ -215,40 +228,43 @@ body
     margin-right: 20px; 
     margin-bottom: 10px;
     border: 2px solid #F2F2F2;
-    border-radius: 35px;
+    border-radius: 45px;
     padding: 0px 10px 0px 0px;
-    width: 220px;
+    width: 50vw;
+    height: 12vw;
 }
 .fa-dog
 {
     border: 2px solid #DEEBFF;
     background-color: #DEEBFF;
-    padding: 17px 17px 17px 17px;
-    border-radius: 30px;
+    padding: 4.5vw 4.5vw 4.5vw 4.5vw;
+    border-radius: 45px;
     position: relative;
-    left: -2px;
+    left: -1vw;
     color: #0065FC;
+    font-size: 3vw;
 }
 .nombres_logements
 {
     display: flex;
     align-items: center;
-
-    margin-left: 10px
+    margin-left: 2vw;
 }
 .nombres_logements p
 {
-    font-size: 1em;
+    font-size: 3vw;
 }
+
+
 .ico_info
 {
-    font-size: 1em;
+    font-size: 3vw;
     border: 2px solid #F2F2F2;
-    padding: 4px 10px 4px 10px;
+    padding: 1vw 2vw 1vw 2vw;
     border-radius: 30px;
     margin-right: 10px;
     color: #0065FC;
-    margin-bottom: 15px;
+    margin-bottom: 1vw;
 }
 .HaM
 {
@@ -268,6 +284,7 @@ body
 .hebergements
 {
     width: 100%;
+
     display: flex;
     flex-flow: row wrap;
     background-color: white;
@@ -279,7 +296,7 @@ body
 }
 .titre_hebergements
 {
-    font-size: 0.9em;
+    font-size: 4vw;
     
     width: 100%;
     margin-left: 30px;
@@ -287,23 +304,24 @@ body
 .desc
 {
     border-radius: 30px;
-    margin-left: 15px
+    margin-left: 4vw;
+    
 }
 .titre_desc
 {
-    font-size: 1em;
+    font-size: 4vw;
     font-weight: bold;
     margin-bottom: 5px;
 }
 .text_desc
 {
     margin-bottom: 0px;
-    font-size: 0.9em;
+    font-size: 4vw;
     margin-bottom: 7px;
 }
 .note
 {
-    font-size: 0.8em;
+    font-size: 2.7vw;
 }
 .fa-star
 {
@@ -315,19 +333,19 @@ body
 }
 .heb_block
 {
-    border: 3px solid white;
+    
     border-radius: 30px;
-    height: auto;
+    height: 44vw;
     background-color: white;
-    width: 340px;
+    width: 85vw;
     margin-bottom: 20px;
     box-shadow: 2px 2px 2px 2px #F2F2F2;
 
 }
 .heb_block img
 {
-    width: 100%;
-    height: 120px;
+    width: 85vw;
+    height: 28vw;
     border-radius: 30px 30px 0px 0px;
     object-fit: cover;
 
@@ -336,7 +354,7 @@ body
 .afficher
 {
         
-    font-size: 1em;
+    font-size: 4vw;
     padding: 10px 10px 10px 10px;
     font-weight: bold;
     border: none;
@@ -347,7 +365,7 @@ body
     display: flex;
     justify-content: flex-start;
     width: 100%;
-    padding-left: 20px;
+    padding-left: 2vw;
 }
 .populaires
 {
@@ -358,11 +376,11 @@ body
     justify-content: space-around;
     height: auto;
     
-    margin-bottom: 50px;
+    margin-bottom: 10vw;
 }
 .titre_pop
 {
-    font-size: 0.9em;
+    font-size: 4vw;
     display: flex;
     align-items: center;
     width: 90%;
@@ -373,18 +391,18 @@ body
     display: flex;
     background-color: white;
     border: 3px solid white;
-    border-radius: 30px;
-    width: 330px;
-    height: 120px;
+    border-radius: 40px;
+    width: 85vw;
+    height: 30vw;
     margin-bottom: 20px;
 
 }
 
 .block_pop img
 {
-    border-radius: 30px 0px 0px 30px;
-    height: 120px;
-    width: 120px;
+    border-radius: 40px 0px 0px 40px;
+    height: 30vw;
+    width: 30vw;
     object-fit: cover;
 }
 
@@ -396,36 +414,32 @@ body
 
 .titre_desc_pop
 {
-    font-size: 1em;
+    font-size: 4vw;
     font-weight: bold;
-    margin-top: 15px;
+    margin-top: 1vw;
 }
 .text_desc_pop
 {
-    font-size: 0.9em;
-    margin-top: 5px;
+    font-size: 3.5vw;
+    margin-top: 1vw;
 }
-.note_pop1
+.note_pop
 {
-    padding-top: 29px;
-    font-size: 0.8em;
+    padding-top: 10vw;
+    font-size: 3vw;
 }
 .note_pop2
 {
-    padding-top: 29px;
-    font-size: 0.8em;
+    padding-top: 8vw;
+    font-size: 3vw;
 }
-.note_pop3
-{
-    padding-top: 29px;
-    font-size: 0.8em;
-}
+
 
 
 .titre_act 
 {
-    font-size: 1em;
-    margin-left: 20px;
+    font-size: 4vw;
+    margin-left: 2vw;
 }
 .block_activites
 {
@@ -436,31 +450,31 @@ body
 }
 .desc_act
 {
-    font-size: 1em;
+    font-size: 4vw;
     font-weight: bold;
-    padding-left: 25px;
-    padding-top: 15px;
-    padding-bottom: 10px;
+    padding-left: 3vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
 }
 .act_1
 {
    border-radius: 30px ;
    border: 1px solid #F2F2F2;
-   width: 340px;
-   height: auto;
+   width: 85vw;
+   height: 44vw;
    box-shadow: 2px 2px 2px 2px #F2F2F2;
    margin-bottom: 20px;
 }
 .act_1 img
 {
     border-radius: 30px 30px 0px 0px;
-    width: 100%;
-    height: 130px;
+    width: 85vw;
+    height: 32vw;
     object-fit: cover;
 }
 .act_2
 {
-   width: 340px;
+   width: 85vw;
    height: auto;
    display: flex;
    flex-flow: row wrap;
@@ -475,60 +489,60 @@ body
 {
     border-radius: 30px ;
     border: 1px solid #F2F2F2;
-    height: auto;
-    width: 100%;
+    height: 44vw;
+    width: 85vw;
     box-shadow: 2px 2px 2px 2px #F2F2F2;
     margin-bottom: 20px;
 }
 .fort img
 {
-    width: 100%;
-    height: 130px;
+    width: 85vw;
+    height: 32vw;
     object-fit: cover;
 }
 
 .iles
 {
-    border-radius: 30px ;
+    border-radius: 40px ;
     border: 1px solid #F2F2F2;
-    height: auto;
-    width: 100%;
+    height: 44vw;
+    width: 85vw;
     box-shadow: 2px 2px 2px 2px #F2F2F2;
 
 }
 .iles img
 {
-    width: 100%;
-    height: 130px;
+    width: 85vw;
+    height: 32vw;
     object-fit: cover;
 }
 .notre_dame
 {
-    border-radius: 30px ;
+    border-radius: 40px ;
     border: 1px solid #F2F2F2;
-    height: auto;
-    width: 100%;
+    height: 44vw;
+    width: 85vw;
     box-shadow: 2px 2px 2px 2px #F2F2F2;
     margin-bottom: 20px;
 }
 .notre_dame img
 {
-    width: 100%;
-    height:130px;
+    width: 85vw;
+    height:32vw;
     object-fit: cover;
 }
 .parc_long
 {
-    border-radius: 30px ;
+    border-radius: 40px ;
     border: 1px solid #F2F2F2;
-    height: auto;
-    width: 100%;
+    height: 44vw;
+    width: 85vw;
     box-shadow: 2px 2px 2px 2px #F2F2F2;
 }
 .parc_long img
 {
-    width: 100%;
-    height: 130px;
+    width: 85vw;
+    height: 32vw;
     object-fit: cover
 }
 .bas_de_page
@@ -536,10 +550,12 @@ body
     
     background-color: #F2F2F2;
     width: 100%;
-    height: auto;
-    padding-top: 40px;
-    margin-top: 20px;
-    padding-bottom: 30px;
+    height: 65vw;
+    padding-top: 7vw;
+    margin-top: 5vw;
+    padding-bottom: 5vw;
+
+
 }
 .bas_de_page ul
 {
@@ -550,11 +566,17 @@ body
 {
     text-decoration: none;
     color: black;
-    font-size: 0.9em;em;
+    font-size: 4vw;
+    padding-left: 4vw;
 }
 .titre_bas_de_pages
 {
-    font-size: 1em;
+    font-size: 5vw;
     font-weight: bold;
-    padding-left: 37px;
+    padding-left: 9vw;
+}
+.a_propos
+{
+    background-color:pink;
+    width:70vw;
 }
