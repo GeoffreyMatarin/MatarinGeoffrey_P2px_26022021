@@ -1,4 +1,4 @@
- @media all and (max-width:767px)
+ @media all and (max-width:768px)
 
 
 font-face 
@@ -29,7 +29,7 @@ body
 }
 .logo_nav
 {
-    width: 100%;
+    width: 92%;
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
@@ -50,18 +50,16 @@ body
 {
     list-style-type: none;  
     display: flex;
-    justify-content: space-around;
-    margin: 0px;
+    
+    
 
 }
 
 .logo-nav li
 {
-    display: flex;
+    
     width: 60%;
-    
-
-    
+    margin: 0px;
 }
 
 .logo_nav nav
@@ -95,7 +93,7 @@ body
 .ac
 {
 border-bottom: 2px solid #F2F2F2;
-padding: 0vw 14vw 2vw 18vw;
+padding: 0vw 13vw 2vw 18vw;
 position: relative;
 left: -5vw;
 }
@@ -374,7 +372,7 @@ left: -5vw;
     background-color: white;
     width: 85vw;
     margin-bottom: 20px;
-    box-shadow: 2px 2px 2px 2px #F2F2F2;
+    box-shadow: 0px 1px 10px 5px rgb(100 100 100 / 10%);
 
 }
 .heb_block img
@@ -494,10 +492,9 @@ left: -5vw;
 .act_1
 {
    border-radius: 30px ;
-   border: 1px solid #F2F2F2;
    width: 85vw;
    height: 44vw;
-   box-shadow: 2px 2px 2px 2px #F2F2F2;
+   box-shadow: 0px 1px 10px 5px rgb(100 100 100 / 10%);
    margin-bottom: 20px;
 }
 .act_1 img
@@ -523,10 +520,9 @@ left: -5vw;
 .fort
 {
     border-radius: 30px ;
-    border: 1px solid #F2F2F2;
     height: 44vw;
     width: 85vw;
-    box-shadow: 2px 2px 2px 2px #F2F2F2;
+    box-shadow: 0px 1px 10px 5px rgb(100 100 100 / 10%);
     margin-bottom: 20px;
 }
 .fort img
@@ -539,10 +535,9 @@ left: -5vw;
 .iles
 {
     border-radius: 40px ;
-    border: 1px solid #F2F2F2;
     height: 44vw;
     width: 85vw;
-    box-shadow: 2px 2px 2px 2px #F2F2F2;
+    box-shadow: 0px 1px 10px 5px rgb(100 100 100 / 10%);
 
 }
 .iles img
@@ -554,10 +549,9 @@ left: -5vw;
 .notre_dame
 {
     border-radius: 40px ;
-    border: 1px solid #F2F2F2;
     height: 44vw;
     width: 85vw;
-    box-shadow: 2px 2px 2px 2px #F2F2F2;
+    box-shadow: 0px 1px 10px 5px rgb(100 100 100 / 10%);
     margin-bottom: 20px;
 }
 .notre_dame img
@@ -569,10 +563,9 @@ left: -5vw;
 .parc_long
 {
     border-radius: 40px ;
-    border: 1px solid #F2F2F2;
     height: 44vw;
     width: 85vw;
-    box-shadow: 2px 2px 2px 2px #F2F2F2;
+    box-shadow: 0px 1px 10px 5px rgb(100 100 100 / 10%);
 }
 .parc_long img
 {
@@ -585,7 +578,7 @@ left: -5vw;
     
     background-color: #F2F2F2;
     width: 100%;
-    height: 67vw;
+    height: auto;
     padding-top: 7vw;
     margin-top: 5vw;
     padding-bottom: 5vw;
@@ -596,22 +589,29 @@ left: -5vw;
 {
     list-style-type: none;
     
+    
 }
 
 .bas_de_page a
 {
     text-decoration: none;
     color: black;
-    font-size: 4.5vw;
-
+    font-size: 4vw;
     
+
+        
+}
+.bas_de_page li
+{
+    padding-bottom: 10px;
 }
 .titre_bas_de_pages
 {
     font-size: 5vw;
     font-weight: bold;
-    width: 100%;
-    margin-left: 6vw;
+    width: 90%;
+    margin-left: 40px;
+    padding-bottom: 15px;
     
 }
 .a_propos
@@ -627,10 +627,4 @@ left: -5vw;
     flex-flow: row wrap; 
     justify-content: flex-start;
     
-}
-.Assistance
-{
-    display: flex;
-    flex-flow: row wrap; 
-    justify-content: flex-start;
 }

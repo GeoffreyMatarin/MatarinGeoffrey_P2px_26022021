@@ -1,4 +1,4 @@
-@media all and (min-width:768px) and (max-width:1024px)
+@media all and (min-width:768px) and (max-width:1025px)
 
 font-face 
 {
@@ -55,7 +55,7 @@ body
 .heb
 {
 	border-top: 2px solid #0065FC ;
-	padding: 16px 30px 0px 20px ;
+	padding: 1.9vw 30px 0px 20px ;
 }
 .ac
 {
@@ -431,10 +431,9 @@ body
 .act_1
 {
    border-radius: 30px ;
-   border: 1px solid #F2F2F2;
    width: 40vw;
    height: 56vw;
-   box-shadow: 2px 2px 2px 2px #F2F2F2;
+   box-shadow: 0px 1px 10px 5px rgb(100 100 100 / 10%);
    margin-bottom: 3vw;
 }
 .act_1 img
@@ -461,10 +460,9 @@ body
 .fort
 {
 	border-radius: 30px ;
-    border: 1px solid #F2F2F2;
-	height: 28vw;
+    height: 28vw;
 	width: 40vw;
-	box-shadow: 2px 2px 2px 2px #F2F2F2;
+	box-shadow: 0px 1px 10px 5px rgb(100 100 100 / 10%);
 }
 .fort img
 {
@@ -476,10 +474,9 @@ body
 .iles
 {
 	border-radius: 30px ;
-    border: 1px solid #F2F2F2;
-	height: 23vw;
+    height: 23vw;
 	width: 40vw;
-	box-shadow: 2px 2px 2px 2px #F2F2F2;
+	box-shadow: 0px 1px 10px 5px rgb(100 100 100 / 10%);
 }
 .iles img
 {
@@ -490,10 +487,9 @@ body
 .notre_dame
 {
 	border-radius: 30px ;
-    border: 1px solid #F2F2F2;
-	height: 25vw;
+    height: 25vw;
 	width: 40vw;
-	box-shadow: 2px 2px 2px 2px #F2F2F2;
+	box-shadow: 0px 1px 10px 5px rgb(100 100 100 / 10%);
 }
 .notre_dame img
 {
@@ -504,10 +500,9 @@ body
 .parc_long
 {
 	border-radius: 30px ;
-    border: 1px solid #F2F2F2;
-	height: 26vw;
+    height: 26vw;
 	width: 40vw;
-	box-shadow: 2px 2px 2px 2px #F2F2F2;
+	box-shadow: 0px 1px 10px 5px rgb(100 100 100 / 10%);
 }
 .parc_long img
 {
@@ -540,13 +535,14 @@ body
 {
 	font-size: 2vw;
 	font-weight: bold;
-	padding-left: 3.8vw;
+	padding-left: 40px;
+	padding-bottom: 10px;
 }
 .Assistance
 {
 	padding-right: 2vw;
 }
-.a_propos
+.bas_de_page li
 {
-	
+	padding-bottom: 10px;
 }

@@ -53,16 +53,22 @@ body
 	 font-size: 1.3vw;
 	 text-decoration: none;
 	 margin-right: 20px;
-	 color: #0065FC;
+	 
 }
 .heb
 {
 	border-top: 2px solid #0065FC ;
-	padding: 20px 30px 0px 20px ;
+	padding: 2.04vw 30px 0px 20px ;
+	color: #0065FC;
 }
 .ac
 {
 	padding-right: 30px;
+	color: black;
+}
+.sin
+{
+	color: #0065FC;
 }
 .avant_recherche h1
 {
@@ -136,6 +142,7 @@ body
 {
 	font-size: 1vw;
 	padding: 0px 2vw 0px 2vw;
+	white-space: nowrap;
 }
 .eco
 {
@@ -442,10 +449,9 @@ body
 .act_1
 {
    border-radius: 30px ;
-   border: 1px solid #F2F2F2;
    width: 21.2vw;
    height: 32vw;
-   box-shadow: 2px 2px 2px 2px #F2F2F2;
+   box-shadow: 0px 1px 10px 5px rgb(100 100 100 / 10%);
    margin-bottom: 20px;
 }
 .act_1 img
@@ -473,10 +479,9 @@ body
 .fort
 {
 	border-radius: 30px ;
-    border: 1px solid #F2F2F2;
-	height: 14.5vw;
+    height: 14.5vw;
 	width: 21.1vw;
-	box-shadow: 2px 2px 2px 2px #F2F2F2;
+	box-shadow: 0px 1px 10px 5px rgb(100 100 100 / 10%);
 }
 .fort img
 {
@@ -487,10 +492,9 @@ body
 .iles
 {
 	border-radius: 30px ;
-    border: 1px solid #F2F2F2;
-	height: 12vw;
+    height: 12vw;
 	width: 21.1vw;
-	box-shadow: 2px 2px 2px 2px #F2F2F2;
+	box-shadow: 0px 1px 10px 5px rgb(100 100 100 / 10%);
 }
 .iles img
 {
@@ -500,10 +504,10 @@ body
 .notre_dame
 {
 	border-radius: 30px ;
-    border: 1px solid #F2F2F2;
+    
 	height: 13.5vw;
 	width: 21.1vw;
-	box-shadow: 2px 2px 2px 2px #F2F2F2;
+	box-shadow: 0px 1px 10px 5px rgb(100 100 100 / 10%);
 }
 .notre_dame img
 {
@@ -513,10 +517,9 @@ body
 .parc_long
 {
 	border-radius: 30px ;
-    border: 1px solid #F2F2F2;
-	height: 14vw;
+    height: 14vw;
 	width: 21.1vw;
-	box-shadow: 2px 2px 2px 2px #F2F2F2;
+	box-shadow: 0px 1px 10px 5px rgb(100 100 100 / 10%);
 }
 .parc_long img
 {
@@ -529,9 +532,10 @@ body
 	justify-content: space-between;
 	background-color: #F2F2F2;
 	width: 100%;
-	height: 160px;
+	height: auto;
 	padding-top: 50px;
 	margin-top: 60px;
+	padding-bottom: 30px;
 }
 .bas_de_page ul
 {
@@ -548,9 +552,15 @@ body
 {
 	font-size: 1.5vw;
 	font-weight: bold;
-	padding-left: 2.5vw;
+	padding-left: 40px;
+	padding-bottom: 15px;
+}
+
+.bas_de_page li
+{
+	padding-bottom: 10px;
 }
 .Assistance
 {
-	padding-right: 30vw;
+	padding-right: 40px;
 }
