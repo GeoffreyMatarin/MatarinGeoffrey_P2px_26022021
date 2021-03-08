@@ -18,7 +18,7 @@ body
 
 .logo
 {
-    width: 70%;
+    width: 90vw;
     background-color: pink
 }		
 .block_page
@@ -32,40 +32,73 @@ body
     width: 100%;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
-    margin-top: 20px;
+    justify-content: flex-start;
+    
+    height: 20vw;
  }
 .logo_nav img
 {
     width: 20vw;
-    height: auto;
-    padding-left: 20px;
-    margin-top: 20px;
+    height: 14vw;
+    padding-left: 2vw;
+    margin-top: 2vw;
+    margin-left: 2vw;
     
 }
-.logo_nav nav
-{
-    display: flex;
-    flex-flow: row wrap-reverse;
-}
+
 .logo_nav ul
 {
-    list-style-type: none;      
+    list-style-type: none;  
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+
 }
 
 .logo-nav li
 {
-    justify-content: flex-start;
+    display: flex;
+    width: 60%;
+    
+
     
 }
 
+.logo_nav nav
+{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 0px;
+}
 .logo_nav a
 {
-     font-size: 3vw;
+     font-size: 3.5vw;
      text-decoration: none;
      color: #0065FC;
  }
- 
+.sin
+{
+    position: absolute;
+    top: 7.5vw;
+    right: 20vw;
+} 
+.heb
+{
+    border-bottom: 2px solid #0065FC;
+    padding: 0vw 11vw 2vw 13vw;
+    position: relative;
+    left: -5.1vw;
+    
+    
+}
+.ac
+{
+border-bottom: 2px solid #F2F2F2;
+padding: 0vw 14vw 2vw 18vw;
+position: relative;
+left: -5vw;
+}
 
 
 .avant_recherche
@@ -583,7 +616,6 @@ body
 }
 .a_propos
 {
-    background-color:pink;
     display: flex;
     flex-flow: row wrap; 
     justify-content: flex-start;
@@ -591,7 +623,6 @@ body
 }
 .nos_hebergements
 {
-    background-color:pink;
     display: flex;
     flex-flow: row wrap; 
     justify-content: flex-start;
@@ -599,7 +630,6 @@ body
 }
 .Assistance
 {
-    background-color:pink;
     display: flex;
     flex-flow: row wrap; 
     justify-content: flex-start;
