@@ -18,7 +18,8 @@ body
 
 .logo
 {
-    width: 100%;
+    width: 70%;
+    background-color: pink
 }		
 .block_page
 {
@@ -42,28 +43,29 @@ body
     margin-top: 20px;
     
 }
+.logo_nav nav
+{
+    display: flex;
+    flex-flow: row wrap-reverse;
+}
 .logo_nav ul
 {
-    list-style-type: none;
-    display: flex;
-    flex-flow: row wrap-reverse ;
-
-    
-
-   
+    list-style-type: none;      
 }
 
 .logo-nav li
 {
     justify-content: flex-start;
+    
 }
 
 .logo_nav a
 {
-     font-size: 1em;
+     font-size: 3vw;
      text-decoration: none;
      color: #0065FC;
-}
+ }
+ 
 
 
 .avant_recherche
@@ -550,33 +552,55 @@ body
     
     background-color: #F2F2F2;
     width: 100%;
-    height: 65vw;
+    height: 67vw;
     padding-top: 7vw;
     margin-top: 5vw;
     padding-bottom: 5vw;
-
+   
 
 }
 .bas_de_page ul
 {
     list-style-type: none;
+    
 }
 
 .bas_de_page a
 {
     text-decoration: none;
     color: black;
-    font-size: 4vw;
-    padding-left: 4vw;
+    font-size: 4.5vw;
+
+    
 }
 .titre_bas_de_pages
 {
     font-size: 5vw;
     font-weight: bold;
-    padding-left: 9vw;
+    width: 100%;
+    margin-left: 6vw;
+    
 }
 .a_propos
 {
     background-color:pink;
-    width:70vw;
+    display: flex;
+    flex-flow: row wrap; 
+    justify-content: flex-start;
+    
+}
+.nos_hebergements
+{
+    background-color:pink;
+    display: flex;
+    flex-flow: row wrap; 
+    justify-content: flex-start;
+    
+}
+.Assistance
+{
+    background-color:pink;
+    display: flex;
+    flex-flow: row wrap; 
+    justify-content: flex-start;
 }
