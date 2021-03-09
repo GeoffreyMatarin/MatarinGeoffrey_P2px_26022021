@@ -19,7 +19,7 @@ body
 .logo
 {
     width: 90vw;
-    background-color: pink
+    
 }		
 .block_page
 {
@@ -33,9 +33,10 @@ body
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
-    
     height: 20vw;
+    margin-bottom: 50px;
  }
+
 .logo_nav img
 {
     width: 20vw;
@@ -55,12 +56,7 @@ body
 
 }
 
-.logo-nav li
-{
-    
-    width: 60%;
-    margin: 0px;
-}
+
 
 .logo_nav nav
 {
@@ -84,18 +80,22 @@ body
 .heb
 {
     border-bottom: 2px solid #0065FC;
-    padding: 0vw 11vw 2vw 13vw;
-    position: relative;
+    padding: 0vw 17vw 2vw 13vw;
+    position: absolute;
     left: -5.1vw;
+    width: 50%;
+    
     
     
 }
 .ac
 {
-border-bottom: 2px solid #F2F2F2;
-padding: 0vw 13vw 2vw 18vw;
-position: relative;
-left: -5vw;
+    border-bottom: 2px solid #F2F2F2;
+    padding: 0vw 0vw 2vw 18vw;
+    position: absolute;
+    left: 46.8vw;
+    width: 33%;
+    
 }
 
 
